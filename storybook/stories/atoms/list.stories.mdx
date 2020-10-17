@@ -1,0 +1,94 @@
+import {
+  List,
+  ListItem,
+  ListItemSecondaryAction,
+  ListItemText,
+  Typography,
+  Box,
+  Checkbox,
+  Tooltip,
+  IconButton
+} from 'src/components/atoms'
+import { Delete } from '@material-ui/icons'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/Atoms/List" component={List} />
+
+# List
+
+This component was created from List of [@material-ui](https://material-ui.com).
+
+[List API](https://material-ui.com/api/list)
+
+[ListItem API](https://material-ui.com/api/list-item)
+
+[ListItemIcon API](https://material-ui.com/api/list-item-icon)
+
+[ListItemText API](https://material-ui.com/api/list-item-text)
+
+[ListItemSecondaryAction API](https://material-ui.com/api/list-item-secondary-action)
+
+We also use the following additional props from [@material-ui/system/basics](https://material-ui.com/system/basics):
+
+[Borders API](https://material-ui.com/system/borders)
+
+[Pallete API](https://material-ui.com/system/pallete)
+
+[Sizing API](https://material-ui.com/system/sizing)
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+[CSS](https://material-ui.com/system/basics/#css-property)
+
+<Preview>
+  <Story name="list">
+    <List
+      width={1}
+      height={200}
+      border={1}
+      color="grey.400"
+      borderRadius={4}
+      css={{ overflow: 'auto' }}
+    >
+      {[...Array(10).keys()].map((_each, index) => (
+        <ListItem button key={index}>
+          <ListItemText color="text.primary">Nome</ListItemText>
+          <ListItemSecondaryAction>
+            <Box display="flex" alignItems="center">
+              <Box display="flex" alignItems="center">
+                <Checkbox id={`checkbox-${index}`} />
+                <Typography
+                  color="text.primary"
+                  component="label"
+                  htmlFor={`checkbox-${index}`}
+                  css={{ cursor: 'pointer' }}
+                >
+                  Administrator
+                </Typography>
+              </Box>
+              <Tooltip title="Delete">
+                <IconButton aria-label="delete">
+                  <Delete />
+                </IconButton>
+              </Tooltip>
+            </Box>
+          </ListItemSecondaryAction>
+        </ListItem>
+      ))}
+    </List>
+  </Story>
+</Preview>
+
+## Extra Props from List
+
+| Name      | Description                                                                                                          | Default   |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | --------- |
+| component | The component used for the root node. Either a string to use a HTML element or a component.                          | 'ul'      |
+| to        | Path to a new route (can only be used if the component is receving Link from react-router-dom in the component prop) | undefined |
+
+## Extra Props from ListItem
+
+| Name      | Description                                                                                                                                                           | Default   |
+| --------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| component | The component used for the root node. Either a string to use a HTML element or a component. By default, it's a li when button is false and a div when button is true. |           |
+| to        | Path to a new route (can only be used if the component is receving Link from react-router-dom in the component prop)                                                  | undefined |

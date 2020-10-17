@@ -1,0 +1,114 @@
+import { useState } from 'react'
+import {
+  Popover,
+  Tooltip,
+  IconButton,
+  MenuItem,
+  MenuList,
+  ListItemIcon,
+  ListItemText
+} from 'src/components/atoms'
+import {
+  MoreVert,
+  CloudUpload,
+  CloudDownload,
+  Person,
+  ExitToApp
+} from '@material-ui/icons'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/atoms/Popover" />
+
+# Popover
+
+This component was created from Popover of [@material-ui](https://material-ui.com).
+
+[Popover API](https://material-ui.com/api/popover)
+
+[MenuItem API](https://material-ui.com/api/menu-item)
+
+[MenuList API](https://material-ui.com/api/menu-list)
+
+<Preview>
+  <Story name="popover">
+    {() => {
+      const [openPopover, setOpenPopover] = useState(null)
+      const handleClick = (event) => {
+        setOpenPopover(event.currentTarget)
+      }
+      const handleClose = () => {
+        setOpenPopover(null)
+      }
+      const handleListKeyDown = (event) => {
+        if (event.key === 'Tab') {
+          event.preventDefault()
+          setOpenPopover(null)
+        }
+      }
+      return (
+        <>
+          <Tooltip title="Menu">
+            <IconButton
+              data-testid="menu-button"
+              aria-label="Menu"
+              aria-controls="menu"
+              aria-haspopup="true"
+              onClick={handleClick}
+            >
+              <MoreVert />
+            </IconButton>
+          </Tooltip>
+          <Popover
+            id="menu"
+            anchorEl={openPopover}
+            keepMounted
+            open={Boolean(openPopover)}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'right'
+            }}
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'right'
+            }}
+          >
+            <MenuList onKeyDown={handleListKeyDown}>
+              <MenuItem onClick={handleClose}>
+                <ListItemIcon>
+                  <CloudUpload fontSize="small" />
+                </ListItemIcon>
+                <ListItemText primary="Update data" />
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <ListItemIcon>
+                  <CloudDownload fontSize="small" />
+                </ListItemIcon>
+                <ListItemText primary="Update Credentials" />
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <ListItemIcon>
+                  <Person fontSize="small" />
+                </ListItemIcon>
+                <ListItemText primary="Account settings" />
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <ListItemIcon>
+                  <ExitToApp fontSize="small" />
+                </ListItemIcon>
+                <ListItemText primary="Logout" />
+              </MenuItem>
+            </MenuList>
+          </Popover>
+        </>
+      )
+    }}
+  </Story>
+</Preview>
+
+## Extra Props from MenuItem
+
+| Name      | Description                                                                                                          | Default   |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | --------- |
+| component | The component used for the root node. Either a string to use a HTML element or a component.                          | 'li'      |
+| to        | Path to a new route (can only be used if the component is receving Link from react-router-dom in the component prop) | undefined |

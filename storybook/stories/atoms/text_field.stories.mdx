@@ -1,0 +1,42 @@
+import { TextField, MenuItem } from 'src/components/atoms'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/atoms/Text Field" component={TextField} />
+
+# Text Field
+
+This component was created from Text Field of [@material-ui](https://material-ui.com).
+
+[Text Field API](https://material-ui.com/api/text-field)
+
+We also use the following additional props from [@material-ui/system/basics](https://material-ui.com/system/basics):
+
+[Sizing API](https://material-ui.com/system/sizing)
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+<Preview>
+  <Story name="text field">
+    <>
+      <TextField
+        label="Label name"
+        id="input"
+        InputLabelProps={{ htmlFor: 'input' }}
+        variant="outlined"
+        mr={2}
+      />
+      <TextField
+        label="Label name"
+        id="select-input"
+        InputLabelProps={{ htmlFor: 'select-input' }}
+        variant="outlined"
+        select
+        value={1}
+      >
+        <MenuItem value={1}>Option 1</MenuItem>
+        <MenuItem>Option 2</MenuItem>
+        <MenuItem>Option 3</MenuItem>
+      </TextField>
+    </>
+  </Story>
+</Preview>

@@ -1,0 +1,33 @@
+import { Search } from '@material-ui/icons'
+import { IconButton } from 'src/components/atoms'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/atoms/IconButton" component={IconButton} />
+
+# Icon Button
+
+This component was created from IconButton of [@material-ui](https://material-ui.com).
+
+[Icon Button API](https://material-ui.com/api/icon-button/) (the color prop was replaced, check on [Extra Props](#extra-props))
+
+We also use the following additional props from [@material-ui/system/basics](https://material-ui.com/system/basics/):
+
+[Pallete API](https://material-ui.com/system/pallete)
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+<Preview>
+  <Story name="icon button">
+    <IconButton aria-label="Search">
+      <Search />
+    </IconButton>
+  </Story>
+</Preview>
+
+## Extra Props
+
+| Name      | Description                                                                                                          | Default        |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | -------------- |
+| component | The component used for the root node. Either a string to use a HTML element or a component.                          | 'button'       |
+| to        | Path to a new route (can only be used if the component is receving Link from react-router-dom in the component prop) | undefined      |
+| color     | The color of the component. This prop was replaced by the material-ui/system one.                                    | 'text.primary' |

@@ -1,0 +1,2533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Settings component should snapshot works with english language 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <div
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <div
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Component-root Component-root mui-fixed MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular WithStyles(ForwardRef(Toolbar))-root"
+        >
+          <div
+            class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+          >
+            <div
+              class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="button-header-logo"
+              title="To main page"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover Component-root Component-root MuiTypography-colorPrimary"
+                href="/front/credentials"
+              >
+                <img
+                  alt="Header logo"
+                  class="img-root img-root"
+                  src=""
+                />
+              </a>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root Component-root Component-root"
+            >
+              <button
+                aria-controls="menu"
+                aria-haspopup="true"
+                aria-label="Menu"
+                class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                data-testid="header-menu"
+                tabindex="0"
+                title="Menu"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <span
+                    class="MuiBadge-root Component-root Component-root"
+                    data-testid="badge-notifications"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary MuiBadge-invisible"
+                    >
+                      0
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                aria-hidden="true"
+                class="MuiPopover-root WithStyles(ForwardRef(Popover))-root"
+                data-testid="popover-invisible-div"
+                id="menu"
+                role="presentation"
+                style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px; visibility: hidden;"
+              >
+                <div
+                  data-test="sentinelStart"
+                  tabindex="0"
+                />
+                <div
+                  class="MuiPaper-root MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded"
+                  style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiBox-root MuiBox-root Component-root Component-root"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root Component-root Component-root"
+                    >
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Username
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-noWrap"
+                      >
+                        testecrudcredential
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Server
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-noWrap"
+                      >
+                        http://sso:3000
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Expires at
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        15/06/2020 11:39
+                      </p>
+                      <div
+                        class="MuiBox-root MuiBox-root Component-root Component-root"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root Component-root Component-root"
+                        >
+                          <button
+                            aria-label="Portuguese"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-portuguese"
+                            tabindex="0"
+                            title="Portuguese"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Brasil flag"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            aria-label="English"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-english"
+                            tabindex="0"
+                            title="English"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="United Kingdom flag"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            aria-label="Spanish"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-spanish"
+                            tabindex="0"
+                            title="Spanish"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Spain flag"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="MuiList-root ForwardRef(MenuList)-root MuiList-padding"
+                    role="menu"
+                    tabindex="-1"
+                  >
+                    <a
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="menuitem-monkis"
+                      href="/front/monkis"
+                      role="menuitem"
+                      style="pointer-events: auto;"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                        title=""
+                      >
+                        <div
+                          class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M7 2v11h3v9l7-12h-4l4-8z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                          >
+                            My monkis
+                          </span>
+                        </div>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </a>
+                    <a
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="menuitem-settings"
+                      href="/front/settings"
+                      role="menuitem"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Account settings
+                        </span>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </a>
+                    <li
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="logout"
+                      role="menuitem"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Logout
+                        </span>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  data-test="sentinelEnd"
+                  tabindex="0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          Account Settings
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-disabled MuiInputLabel-disabled MuiFormLabel-filled"
+              data-shrink="true"
+              for="textfield-account-settings-username"
+              id="textfield-account-settings-username-label"
+            >
+              Username
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-disabled MuiOutlinedInput-disabled MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-disabled MuiOutlinedInput-disabled"
+                disabled=""
+                id="textfield-account-settings-username"
+                maxlength="100"
+                placeholder="Type your username"
+                type="text"
+                value="testecrudcredential"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Username
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled MuiFormLabel-required MuiInputLabel-required"
+              data-shrink="true"
+              data-testid="textfield-account-settings-email-label"
+              for="textfield-account-settings-email"
+              id="textfield-account-settings-email-label"
+            >
+              E-mail
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-email"
+                id="textfield-account-settings-email"
+                maxlength="100"
+                placeholder="Type your e-mail"
+                required=""
+                type="email"
+                value="testecrudcredential@testecrudcredential.com"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    E-mail
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-required MuiInputLabel-required"
+              data-shrink="true"
+              data-testid="textfield-account-settings-first-name-label"
+              for="textfield-account-settings-first-name"
+              id="textfield-account-settings-first-name-label"
+            >
+              First name
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-first-name"
+                id="textfield-account-settings-first-name"
+                maxlength="100"
+                placeholder="Type your first name"
+                required=""
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    First name
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+              data-testid="textfield-account-settings-last-name-label"
+              for="textfield-account-settings-last-name"
+              id="textfield-account-settings-last-name-label"
+            >
+              Last name
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-last-name"
+                id="textfield-account-settings-last-name"
+                maxlength="100"
+                placeholder="Type your last name"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Last name
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          Security settings
+        </h6>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled MuiFormLabel-required MuiInputLabel-required"
+          data-shrink="true"
+          data-testid="textfield-security-settings-session-expiration-time-label"
+          for="textfield-security-settings-session-expiration-time"
+          id="textfield-security-settings-session-expiration-time-label"
+        >
+          Session expiraton time
+          <span
+            aria-hidden="true"
+            class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+        >
+          <div
+            aria-disabled="false"
+            aria-haspopup="listbox"
+            aria-labelledby="textfield-security-settings-session-expiration-time-label textfield-security-settings-session-expiration-time"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+            data-testid="textfield-security-settings-session-expiration-time"
+            id="textfield-security-settings-session-expiration-time"
+            role="button"
+            tabindex="0"
+          >
+            30 minutes
+          </div>
+          <input
+            aria-hidden="true"
+            autocomplete="off"
+            class="MuiSelect-nativeInput"
+            maxlength="100"
+            required=""
+            tabindex="-1"
+            value="1800000"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+            >
+              <span>
+                Session expiraton time
+                 *
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      />
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined Component-root Component-root MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+            data-testid="button-settings-back"
+            href="/front/credentials"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Back
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+            title=""
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+              data-testid="button-settings-submit"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Save
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+        transform="scale(1.2, 1.2)"
+      />
+    </svg>
+    <h6
+      class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+    >
+      Password Settings
+    </h6>
+  </div>
+  <div
+    class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+        data-testid="button-password-settings-change"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+              />
+            </svg>
+          </span>
+          Click to change your password
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+          data-testid="button-password-settings-two-factor-authentication"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+                />
+              </svg>
+            </span>
+            Two-factor Authentication
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="Helper"
+          class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          tabindex="0"
+          title="Helper"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+        data-testid="button-password-settings-resend-new-token"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+            </svg>
+          </span>
+          Resend new token
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Settings component should snapshot works with portuguese language 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <div
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <div
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Component-root Component-root mui-fixed MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular WithStyles(ForwardRef(Toolbar))-root"
+        >
+          <div
+            class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+          >
+            <div
+              class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="button-header-logo"
+              title="Para página principal"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover Component-root Component-root MuiTypography-colorPrimary"
+                href="/front/credentials"
+              >
+                <img
+                  alt="Header logo"
+                  class="img-root img-root"
+                  src=""
+                />
+              </a>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root Component-root Component-root"
+            >
+              <button
+                aria-controls="menu"
+                aria-haspopup="true"
+                aria-label="Menu"
+                class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                data-testid="header-menu"
+                tabindex="0"
+                title="Menu"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <span
+                    class="MuiBadge-root Component-root Component-root"
+                    data-testid="badge-notifications"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary MuiBadge-invisible"
+                    >
+                      0
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                aria-hidden="true"
+                class="MuiPopover-root WithStyles(ForwardRef(Popover))-root"
+                data-testid="popover-invisible-div"
+                id="menu"
+                role="presentation"
+                style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px; visibility: hidden;"
+              >
+                <div
+                  data-test="sentinelStart"
+                  tabindex="0"
+                />
+                <div
+                  class="MuiPaper-root MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded"
+                  style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiBox-root MuiBox-root Component-root Component-root"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root Component-root Component-root"
+                    >
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Nome de usuário
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-noWrap"
+                      >
+                        testecrudcredential
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Servidor
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-noWrap"
+                      >
+                        http://sso:3000
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Expira em
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        15/06/2020 11:39
+                      </p>
+                      <div
+                        class="MuiBox-root MuiBox-root Component-root Component-root"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root Component-root Component-root"
+                        >
+                          <button
+                            aria-label="Português"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-portuguese"
+                            tabindex="0"
+                            title="Português"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Bandeira do Brasil"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            aria-label="Inglês"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-english"
+                            tabindex="0"
+                            title="Inglês"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Bandeira do Reino Unido"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            aria-label="Espanhol"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-spanish"
+                            tabindex="0"
+                            title="Espanhol"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Bandeira da Espanha"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="MuiList-root ForwardRef(MenuList)-root MuiList-padding"
+                    role="menu"
+                    tabindex="-1"
+                  >
+                    <a
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="menuitem-monkis"
+                      href="/front/monkis"
+                      role="menuitem"
+                      style="pointer-events: auto;"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                        title=""
+                      >
+                        <div
+                          class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M7 2v11h3v9l7-12h-4l4-8z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                          >
+                            Meus monkis
+                          </span>
+                        </div>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </a>
+                    <a
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="menuitem-settings"
+                      href="/front/settings"
+                      role="menuitem"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Configurações da conta
+                        </span>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </a>
+                    <li
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="logout"
+                      role="menuitem"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Encerrar sessão
+                        </span>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  data-test="sentinelEnd"
+                  tabindex="0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          Configurações da conta
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-disabled MuiInputLabel-disabled MuiFormLabel-filled"
+              data-shrink="true"
+              for="textfield-account-settings-username"
+              id="textfield-account-settings-username-label"
+            >
+              Nome de usuário
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-disabled MuiOutlinedInput-disabled MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-disabled MuiOutlinedInput-disabled"
+                disabled=""
+                id="textfield-account-settings-username"
+                maxlength="100"
+                placeholder="Digite o nome"
+                type="text"
+                value="testecrudcredential"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Nome de usuário
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled MuiFormLabel-required MuiInputLabel-required"
+              data-shrink="true"
+              data-testid="textfield-account-settings-email-label"
+              for="textfield-account-settings-email"
+              id="textfield-account-settings-email-label"
+            >
+              E-mail
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-email"
+                id="textfield-account-settings-email"
+                maxlength="100"
+                placeholder="Digite o e-mail"
+                required=""
+                type="email"
+                value="testecrudcredential@testecrudcredential.com"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    E-mail
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-required MuiInputLabel-required"
+              data-shrink="true"
+              data-testid="textfield-account-settings-first-name-label"
+              for="textfield-account-settings-first-name"
+              id="textfield-account-settings-first-name-label"
+            >
+              Nome
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-first-name"
+                id="textfield-account-settings-first-name"
+                maxlength="100"
+                placeholder="Digite seu nome"
+                required=""
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Nome
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+              data-testid="textfield-account-settings-last-name-label"
+              for="textfield-account-settings-last-name"
+              id="textfield-account-settings-last-name-label"
+            >
+              Sobrenome
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-last-name"
+                id="textfield-account-settings-last-name"
+                maxlength="100"
+                placeholder="Digite seu sobrenome"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Sobrenome
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          Configurações de segurança
+        </h6>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled MuiFormLabel-required MuiInputLabel-required"
+          data-shrink="true"
+          data-testid="textfield-security-settings-session-expiration-time-label"
+          for="textfield-security-settings-session-expiration-time"
+          id="textfield-security-settings-session-expiration-time-label"
+        >
+          Tempo de expiração da sessão
+          <span
+            aria-hidden="true"
+            class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+        >
+          <div
+            aria-disabled="false"
+            aria-haspopup="listbox"
+            aria-labelledby="textfield-security-settings-session-expiration-time-label textfield-security-settings-session-expiration-time"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+            data-testid="textfield-security-settings-session-expiration-time"
+            id="textfield-security-settings-session-expiration-time"
+            role="button"
+            tabindex="0"
+          >
+            30 minutos
+          </div>
+          <input
+            aria-hidden="true"
+            autocomplete="off"
+            class="MuiSelect-nativeInput"
+            maxlength="100"
+            required=""
+            tabindex="-1"
+            value="1800000"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+            >
+              <span>
+                Tempo de expiração da sessão
+                 *
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      />
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined Component-root Component-root MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+            data-testid="button-settings-back"
+            href="/front/credentials"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Voltar
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+            title=""
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+              data-testid="button-settings-submit"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Salvar
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+        transform="scale(1.2, 1.2)"
+      />
+    </svg>
+    <h6
+      class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+    >
+      Configurações da senha
+    </h6>
+  </div>
+  <div
+    class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+        data-testid="button-password-settings-change"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+              />
+            </svg>
+          </span>
+          Clique para mudar sua senha
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+          data-testid="button-password-settings-two-factor-authentication"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+                />
+              </svg>
+            </span>
+            Autenticação de duas etapas
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="Ajuda"
+          class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          tabindex="0"
+          title="Ajuda"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+        data-testid="button-password-settings-resend-new-token"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+            </svg>
+          </span>
+          Reenviar o token
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Settings component should snapshot works with spanish language 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <div
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <div
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Component-root Component-root mui-fixed MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular WithStyles(ForwardRef(Toolbar))-root"
+        >
+          <div
+            class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+          >
+            <div
+              class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="button-header-logo"
+              title="A la página principal"
+            >
+              <a
+                class="MuiTypography-root MuiLink-root MuiLink-underlineHover Component-root Component-root MuiTypography-colorPrimary"
+                href="/front/credentials"
+              >
+                <img
+                  alt="Header logo"
+                  class="img-root img-root"
+                  src=""
+                />
+              </a>
+            </div>
+            <div
+              class="MuiBox-root MuiBox-root Component-root Component-root"
+            >
+              <button
+                aria-controls="menu"
+                aria-haspopup="true"
+                aria-label="Menu"
+                class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                data-testid="header-menu"
+                tabindex="0"
+                title="Menu"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label"
+                >
+                  <span
+                    class="MuiBadge-root Component-root Component-root"
+                    data-testid="badge-notifications"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
+                      />
+                    </svg>
+                    <span
+                      class="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary MuiBadge-invisible"
+                    >
+                      0
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root"
+                />
+              </button>
+              <div
+                aria-hidden="true"
+                class="MuiPopover-root WithStyles(ForwardRef(Popover))-root"
+                data-testid="popover-invisible-div"
+                id="menu"
+                role="presentation"
+                style="position: fixed; z-index: 1300; right: 0px; bottom: 0px; top: 0px; left: 0px; visibility: hidden;"
+              >
+                <div
+                  data-test="sentinelStart"
+                  tabindex="0"
+                />
+                <div
+                  class="MuiPaper-root MuiPopover-paper MuiPaper-elevation8 MuiPaper-rounded"
+                  style="opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;"
+                  tabindex="-1"
+                >
+                  <div
+                    class="MuiBox-root MuiBox-root Component-root Component-root"
+                  >
+                    <div
+                      class="MuiBox-root MuiBox-root Component-root Component-root"
+                    >
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Nombre de usuario
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-noWrap"
+                      >
+                        testecrudcredential
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Servidor
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-noWrap"
+                      >
+                        http://sso:3000
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        Expira a las
+                      </p>
+                      <p
+                        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                      >
+                        15/06/2020 11:39
+                      </p>
+                      <div
+                        class="MuiBox-root MuiBox-root Component-root Component-root"
+                      >
+                        <div
+                          class="MuiBox-root MuiBox-root Component-root Component-root"
+                        >
+                          <button
+                            aria-label="Portugués"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-portuguese"
+                            tabindex="0"
+                            title="Portugués"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Bandera de Brasil"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            aria-label="Inglés"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-english"
+                            tabindex="0"
+                            title="Inglés"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Bandera del Reino Unido"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                          <button
+                            aria-label="Español"
+                            class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                            data-testid="change-language-spanish"
+                            tabindex="0"
+                            title="Español"
+                            type="button"
+                          >
+                            <span
+                              class="MuiIconButton-label"
+                            >
+                              <img
+                                alt="Bandera de España"
+                                class="img-root img-root"
+                                src=""
+                              />
+                            </span>
+                            <span
+                              class="MuiTouchRipple-root"
+                            />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="MuiList-root ForwardRef(MenuList)-root MuiList-padding"
+                    role="menu"
+                    tabindex="-1"
+                  >
+                    <a
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="menuitem-monkis"
+                      href="/front/monkis"
+                      role="menuitem"
+                      style="pointer-events: auto;"
+                      tabindex="0"
+                    >
+                      <div
+                        class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+                        title=""
+                      >
+                        <div
+                          class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M7 2v11h3v9l7-12h-4l4-8z"
+                            />
+                          </svg>
+                        </div>
+                        <div
+                          class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                        >
+                          <span
+                            class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                          >
+                            Mis monkis
+                          </span>
+                        </div>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </a>
+                    <a
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="menuitem-settings"
+                      href="/front/settings"
+                      role="menuitem"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Configuraciones de la cuenta
+                        </span>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </a>
+                    <li
+                      aria-disabled="false"
+                      class="MuiButtonBase-root MuiListItem-root MuiMenuItem-root Component-root MuiMenuItem-gutters MuiListItem-gutters MuiListItem-button"
+                      data-testid="logout"
+                      role="menuitem"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="MuiListItemIcon-root WithStyles(ForwardRef(ListItemIcon))-root"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5c-1.11 0-2 .9-2 2v4h2V5h14v14H5v-4H3v4c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          />
+                        </svg>
+                      </div>
+                      <div
+                        class="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+                      >
+                        <span
+                          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                        >
+                          Deslogar
+                        </span>
+                      </div>
+                      <span
+                        class="MuiTouchRipple-root"
+                      />
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  data-test="sentinelEnd"
+                  tabindex="0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          Configuración de la cuenta
+        </h6>
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-disabled MuiInputLabel-disabled MuiFormLabel-filled"
+              data-shrink="true"
+              for="textfield-account-settings-username"
+              id="textfield-account-settings-username-label"
+            >
+              Nombre de usuario
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-disabled MuiOutlinedInput-disabled MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-disabled MuiOutlinedInput-disabled"
+                disabled=""
+                id="textfield-account-settings-username"
+                maxlength="100"
+                placeholder="Escriba el nombre"
+                type="text"
+                value="testecrudcredential"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Nombre de usuario
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled MuiFormLabel-required MuiInputLabel-required"
+              data-shrink="true"
+              data-testid="textfield-account-settings-email-label"
+              for="textfield-account-settings-email"
+              id="textfield-account-settings-email-label"
+            >
+              E-mail
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-email"
+                id="textfield-account-settings-email"
+                maxlength="100"
+                placeholder="Escriba su e-mail"
+                required=""
+                type="email"
+                value="testecrudcredential@testecrudcredential.com"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    E-mail
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-required MuiInputLabel-required"
+              data-shrink="true"
+              data-testid="textfield-account-settings-first-name-label"
+              for="textfield-account-settings-first-name"
+              id="textfield-account-settings-first-name-label"
+            >
+              Nombre
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-first-name"
+                id="textfield-account-settings-first-name"
+                maxlength="100"
+                placeholder="Escriba su nombre"
+                required=""
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Nombre
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined"
+              data-shrink="true"
+              data-testid="textfield-account-settings-last-name-label"
+              for="textfield-account-settings-last-name"
+              id="textfield-account-settings-last-name-label"
+            >
+              Apellido
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+            >
+              <input
+                aria-invalid="false"
+                autocomplete="off"
+                class="MuiInputBase-input MuiOutlinedInput-input"
+                data-testid="textfield-account-settings-last-name"
+                id="textfield-account-settings-last-name"
+                maxlength="100"
+                placeholder="Escriba su apellido"
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+                >
+                  <span>
+                    Apellido
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          Configuración de seguridad
+        </h6>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled MuiFormLabel-required MuiInputLabel-required"
+          data-shrink="true"
+          data-testid="textfield-security-settings-session-expiration-time-label"
+          for="textfield-security-settings-session-expiration-time"
+          id="textfield-security-settings-session-expiration-time-label"
+        >
+          Tiempo de expiración de la sesión
+          <span
+            aria-hidden="true"
+            class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+        >
+          <div
+            aria-disabled="false"
+            aria-haspopup="listbox"
+            aria-labelledby="textfield-security-settings-session-expiration-time-label textfield-security-settings-session-expiration-time"
+            class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+            data-testid="textfield-security-settings-session-expiration-time"
+            id="textfield-security-settings-session-expiration-time"
+            role="button"
+            tabindex="0"
+          >
+            30 minutos
+          </div>
+          <input
+            aria-hidden="true"
+            autocomplete="off"
+            class="MuiSelect-nativeInput"
+            maxlength="100"
+            required=""
+            tabindex="-1"
+            value="1800000"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+            />
+          </svg>
+          <fieldset
+            aria-hidden="true"
+            class="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+            >
+              <span>
+                Tiempo de expiración de la sesión
+                 *
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      />
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+      >
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <a
+            aria-disabled="false"
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined Component-root Component-root MuiButton-outlinedSecondary MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+            data-testid="button-settings-back"
+            href="/front/credentials"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Volver
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </a>
+        </div>
+        <div
+          class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+        >
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+            title=""
+          >
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+              data-testid="button-settings-submit"
+              tabindex="0"
+              type="submit"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Guardar
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+        transform="scale(1.2, 1.2)"
+      />
+    </svg>
+    <h6
+      class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+    >
+      Configuración de contraseña
+    </h6>
+  </div>
+  <div
+    class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+  >
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+        data-testid="button-password-settings-change"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+              />
+            </svg>
+          </span>
+          Clic para cambiar su contraseña
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+          data-testid="button-password-settings-two-factor-authentication"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span
+              class="MuiButton-startIcon MuiButton-iconSizeMedium"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
+                />
+              </svg>
+            </span>
+            Autenticación de dos factores
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          aria-label="Ayuda"
+          class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          tabindex="0"
+          title="Ayuda"
+          type="button"
+        >
+          <span
+            class="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+        data-testid="button-password-settings-resend-new-token"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span
+            class="MuiButton-startIcon MuiButton-iconSizeMedium"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+            </svg>
+          </span>
+          Reenviar nuevo token
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

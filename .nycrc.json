@@ -1,0 +1,4 @@
+{
+  "report-dir": "cypress_coverage",
+  "exclude": ["dist/web/*.worker.js"]
+}

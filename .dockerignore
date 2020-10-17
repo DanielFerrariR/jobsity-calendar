@@ -1,0 +1,12 @@
+node_modules
+dist
+.env
+electron-builder.env
+spec/cypress/videos
+spec/cypress/screenshots
+.nyc_output
+coverage
+jest_coverage
+cypress_coverage
+reports
+yarn-error.log

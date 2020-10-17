@@ -1,0 +1,46 @@
+import { Button } from 'src/components/atoms'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/Atoms/Button" component={Button} />
+
+# Button
+
+This component was created from Button of [@material-ui](https://material-ui.com).
+
+[Button API](https://material-ui.com/api/button) (We replaced default color prop to 'primary' and prop variant to 'contained'.)
+
+We also use the following additional props from [@material-ui/system](https://material-ui.com/system):
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+[Sizing API](https://material-ui.com/system/sizing)
+
+<Preview>
+  <Story name="simple button">
+    <Button variant="contained" color="primary" size="small" mr={2}>
+      Button
+    </Button>
+    <Button variant="contained" color="primary" size="medium" mr={2}>
+      Button
+    </Button>
+    <Button variant="contained" color="primary" size="large" mr={2}>
+      Button
+    </Button>
+    <Button variant="contained" color="secondary" size="small" mr={2}>
+      Button
+    </Button>
+    <Button variant="contained" color="secondary" size="medium" mr={2}>
+      Button
+    </Button>
+    <Button variant="contained" color="secondary" size="large">
+      Button
+    </Button>
+  </Story>
+</Preview>
+
+## Extra Props
+
+| Name      | Description                                                                                                          | Default   |
+| --------- | -------------------------------------------------------------------------------------------------------------------- | --------- |
+| component | The component used for the root node. Either a string to use a HTML element or a component.                          | 'button'  |
+| to        | Path to a new route (can only be used if the component is receving Link from react-router-dom in the component prop) | undefined |

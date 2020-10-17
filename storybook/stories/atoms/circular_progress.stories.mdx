@@ -1,0 +1,32 @@
+import { CircularProgress } from 'src/components/atoms'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/atoms/CircularProgress" component={CircularProgress} />
+
+# Circular Progress
+
+This component was created from CircularProgress of [@material-ui](https://material-ui.com).
+
+[Circular Progress API](https://material-ui.com/api/circular-progress/) (the color prop was replaced, check on [Extra Props](#extra-props))
+
+We also use the following additional props from [@material-ui/system/basics](https://material-ui.com/system/basics/):
+
+[Display API](https://material-ui.com/system/display)
+
+[Pallete API](https://material-ui.com/system/pallete)
+
+[Positions API](https://material-ui.com/system/positions)
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+<Preview>
+  <Story name="circular progress">
+    <CircularProgress color="secondary.main" />
+  </Story>
+</Preview>
+
+## Extra Props
+
+| Name  | Description                                                                       | Default    |
+| ----- | :-------------------------------------------------------------------------------- | ---------- |
+| color | The color of the component. This prop was replaced by the material-ui/system one. | (original) |

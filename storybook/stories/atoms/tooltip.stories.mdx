@@ -1,0 +1,27 @@
+import { Search } from '@material-ui/icons'
+import { Tooltip, IconButton } from 'src/components/atoms'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/atoms/Tooltip" component={Tooltip} />
+
+# Tooltip
+
+This component was created from Tooltip of [@material-ui](https://material-ui.com).
+
+[Tooltip API](https://material-ui.com/api/tooltip)
+
+We also use the following additional props from [@material-ui/system/basics](https://material-ui.com/system/basics):
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+[CSS](https://material-ui.com/system/basics/#css-property)
+
+<Preview>
+  <Story name="paper">
+    <Tooltip title="Search">
+      <IconButton>
+        <Search />
+      </IconButton>
+    </Tooltip>
+  </Story>
+</Preview>

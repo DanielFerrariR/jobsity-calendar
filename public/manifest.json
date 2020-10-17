@@ -1,0 +1,30 @@
+{
+  "name": "Jobsity Calendar",
+  "short_name": "Jobsity Calendar",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/logo_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/logo_96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/logo_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#fafafa",
+  "theme_color": "#3f51b5"
+}

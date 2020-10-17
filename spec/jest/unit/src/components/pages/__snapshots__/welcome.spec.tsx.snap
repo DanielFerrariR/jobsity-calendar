@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Welcome component should snapshot works with english language 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <img
+      alt="Welcome logo"
+      class="img-root img-root"
+      src=""
+    />
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+    >
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary"
+          data-testid="register-button"
+          href="/front/register"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Create account
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary MuiButton-fullWidth"
+          data-testid="login-button"
+          href="/front/login"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Sign in
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root Component-root Component-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-alignCenter"
+        data-testid="welcome-board-title"
+      >
+        If you already have an account
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-alignCenter"
+        data-testid="welcome-board-subtitle"
+      >
+        Sign in
+      </p>
+      <img
+        alt="Welcome interface"
+        class="img-root img-root"
+        src=""
+      />
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <p
+      class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+    >
+      Created
+       
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover Component-root Component-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+        href="https://autoseg.com"
+      >
+        @AutoSeg
+      </a>
+    </p>
+    <p
+      class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+    >
+      Version
+       1.0.0
+    </p>
+    <div
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <button
+        aria-label="Portuguese"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-portuguese"
+        tabindex="0"
+        title="Portuguese"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Brasil flag"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-label="English"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-english"
+        tabindex="0"
+        title="English"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="United Kingdom flag"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-label="Spanish"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-spanish"
+        tabindex="0"
+        title="Spanish"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Spain flag"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Welcome component should snapshot works with portuguese language 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <img
+      alt="Logotipo de bem-vindo"
+      class="img-root img-root"
+      src=""
+    />
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+    >
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary"
+          data-testid="register-button"
+          href="/front/register"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Criar conta
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary MuiButton-fullWidth"
+          data-testid="login-button"
+          href="/front/login"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Logar
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root Component-root Component-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-alignCenter"
+        data-testid="welcome-board-title"
+      >
+        Se você já tem uma conta
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-alignCenter"
+        data-testid="welcome-board-subtitle"
+      >
+        Logar
+      </p>
+      <img
+        alt="Interface de bem-vindo"
+        class="img-root img-root"
+        src=""
+      />
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <p
+      class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+    >
+      Criado
+       
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover Component-root Component-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+        href="https://autoseg.com"
+      >
+        @AutoSeg
+      </a>
+    </p>
+    <p
+      class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+    >
+      Versão
+       1.0.0
+    </p>
+    <div
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <button
+        aria-label="Português"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-portuguese"
+        tabindex="0"
+        title="Português"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Bandeira do Brasil"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-label="Inglês"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-english"
+        tabindex="0"
+        title="Inglês"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Bandeira do Reino Unido"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-label="Espanhol"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-spanish"
+        tabindex="0"
+        title="Espanhol"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Bandeira da Espanha"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing Welcome component should snapshot works with spanish language 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <img
+      alt="Logotipo de Bienvenido"
+      class="img-root img-root"
+      src=""
+    />
+    <div
+      class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+    >
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary"
+          data-testid="register-button"
+          href="/front/register"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Crear una cuenta
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary MuiButton-fullWidth"
+          data-testid="login-button"
+          href="/front/login"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Iniciar sesión
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root Component-root Component-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-alignCenter"
+        data-testid="welcome-board-title"
+      >
+        Si ya tienes una cuenta
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1 MuiTypography-alignCenter"
+        data-testid="welcome-board-subtitle"
+      >
+        Iniciar sesión
+      </p>
+      <img
+        alt="Interfaz de bienvenido"
+        class="img-root img-root"
+        src=""
+      />
+    </div>
+  </div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <p
+      class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+    >
+      Creado
+       
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineHover Component-root Component-root MuiTypography-subtitle2 MuiTypography-colorPrimary"
+        href="https://autoseg.com"
+      >
+        @AutoSeg
+      </a>
+    </p>
+    <p
+      class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+    >
+      Versión
+       1.0.0
+    </p>
+    <div
+      class="MuiBox-root MuiBox-root Component-root Component-root"
+    >
+      <button
+        aria-label="Portugués"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-portuguese"
+        tabindex="0"
+        title="Portugués"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Bandera de Brasil"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-label="Inglés"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-english"
+        tabindex="0"
+        title="Inglés"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Bandera del Reino Unido"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+      <button
+        aria-label="Español"
+        class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+        data-testid="change-language-spanish"
+        tabindex="0"
+        title="Español"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <img
+            alt="Bandera de España"
+            class="img-root img-root"
+            src=""
+          />
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

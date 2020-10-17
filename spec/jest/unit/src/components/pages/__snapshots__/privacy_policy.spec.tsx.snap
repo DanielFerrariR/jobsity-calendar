@@ -1,0 +1,2053 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing PrivacyPolicy component should snapshot works with english language 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <div
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Component-root Component-root mui-fixed MuiPaper-elevation4"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular WithStyles(ForwardRef(Toolbar))-root"
+      >
+        <div
+          class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+        >
+          <img
+            alt="Header logo"
+            class="img-root img-root"
+            src=""
+          />
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root"
+          >
+            <button
+              aria-label="Portuguese"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-portuguese"
+              tabindex="0"
+              title="Portuguese"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Brasil flag"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="English"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-english"
+              tabindex="0"
+              title="English"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="United Kingdom flag"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="Spanish"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-spanish"
+              tabindex="0"
+              title="Spanish"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Spain flag"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <div>
+      <h6
+        class="MuiTypography-root Component-root Component-root MuiTypography-h6 MuiTypography-alignCenter"
+      >
+        PassMonki Terms and Conditions of Use
+      </h6>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        I - INTRODUCTION
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Welcome to PassMonki! We invite you to access our website, platform, application and use our services, but before using PassMonki you must read, understand and agree to these Terms and Conditions of Use ("T&C"). This document describes in detail your rights and our rights with respect to the provision of services (as defined below). Therefore, please read this T&C carefully.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        To access our content, you must be 18 years of age or older; be 16 years of age or older and have the consent of your parents or guardians; have the power to enter into a binding contract with us and not be prevented from doing so you under any applicable laws; and be a resident of a country where the Service is available. You also promise that any registration information you send to us is true, accurate and complete, and you agree to keep it that way at all times.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        II - CHANGE OF T&C
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        From time to time, we may, at our discretion, make changes to the T&C. When we make material changes to the T&C, we will provide you with a prominent notice as appropriate under the circumstances. In some cases, we will inform you in advance, prior to the change, and continuity the use of the services by you will depend on your agreement with the changes, so be sure to carefully read any notice that refers to this subject. If you do not want to continue using our services under the new version of the T&C, you can end your relationship with us by contacting us via email: passmonki@autoseg.com.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        III - ADHERENCE TO THE TERMS AND CONDITIONS OF USE AND ATTACHMENTS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        By registering on our website, downloading our Application or accessing our Online Platform, you will accept and agree to these T&C and all provisions of our Privacy Policy.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        IV - SERVICES PROVIDED BY PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki is a platform for secure storage and sharing of passwords and other information. It is also a platform for sharing "scripts", which are small computer programs, to automate login processes in applications, websites and other computing resources.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        We have the following features:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Registration database and secure credential storage;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Ability to share credentials with other platform users;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Encryption of credentials on clients; and
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Automation of login processes.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        V - INTELLECTUAL PROPERTY
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER does not acquire, by this instrument or by the use of the services, any intellectual property rights or other exclusive rights, including patents, designs, trademarks, copyrights or any rights over confidential information or business secrets, as well as all content available on the online Platform and the Application, including, but not limited to, texts, graphics, images, logos, icons, photographs, editorial content, notifications, software.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER also does not acquire any rights over or related to the software of the online Platform or the Application or any component thereof, in addition to the rights expressly licensed to the USER under this T&C or any other Term mutually agreed in writing between the USER and PassMonki Any rights not expressly granted under this T&C remain reserved.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        It will also be the exclusive property of PassMonki or will be properly licensed, all content available on the online Platform and / or the Application, including, but not limited to, texts, graphics, images, logos, icons, photographs, editorial content, notifications, software and any other material.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VI - USER REGISTRATION ON THE ONLINE PLATFORM AND ON THE APPLICATION
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Registration will only be granted for the use of our services to the interested party who fills in all the data requested by the online Platform or the Application, and the interested party must pay attention to the use of accurate, precise and true information, assuming the commitment to update them whenever there is any change in the data provided.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki is not responsible for the accuracy of the data entered by the USERS. These, in turn, guarantee and answer, in any case, for the veracity, accuracy and authenticity of the data entered. PassMonki reserves the right to use all means legally valid and possible to identify the USERS and their responsible ones, as well as to request additional data and documents that they consider to be pertinent, in order to check the informed registration data.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        USERS authorize PassMonki to check the veracity of their registration data and, if it is found that there are incorrect, conflicting or untrue data between them, or even if the USERS are stolen or refuse to send the required documents for completion or proof of regularity , PassMonki will be able to block your access for use, temporarily suspend or permanently cancel your registration, without prejudice to other measures it deems necessary and timely, by sending a notice, by e-mail, describing the measure and its justification.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        USERS will access our services through the online Platform or the App. To create an account, USERS provide us with an email address and choose a password. PassMonki encourages USERS to use a different combination than that used in other services by you and not an obvious password. USERS are responsible for maintaining the accuracy, completeness and confidentiality of their information, as well as for all activities that occur in their account. PassMonki will not be responsible for any loss or damage resulting from your failure to provide accurate information or keep your information secure.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        USERS undertake to notify PassMonki, immediately, and through secure means, of any unauthorized use of their identifier and password or of any type of unauthorized access, perhaps by third parties. USERS will be the only ones responsible for the operations carried out with your identifier and access password, since access to the Application's areas of operation will only be possible through the use of the password, the knowledge of which must be exclusive to the USERS.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Under no circumstances will the assignment, sale, rent or any other form of transferring a USER's identifier and password be allowed. Nor will the existence or maintenance of more than one registration by the same individual or legal entity, or the creation of new registrations by individuals or legal entities whose original registrations have been canceled or disabled due to violations of PassMonki's policies
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki reserves the right to refuse any registration request and to cancel a previously accepted registration due to acts, omissions that violate these provisions, the confidentiality policy and the national legislation, and a notice is sent via e-mail. for USERS, with the description of the measure and its justification.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VII - PERSONAL ACCESS PASSWORDS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        When registering with PassMonki, the USER will be asked to register an access password. This password will be the key to access the encrypted credential data that will be stored in PassMonki.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER must take care responsibly and this password, we recommend using the second factor authentication option configured in the Account Settings section of the menu, located in the upper right corner of the application interface, and changing your password at frequent intervals.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        In the PassMonki system, different encryption and hashing methods are used. Most of it is centered on the USER entity.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        A USER at PassMonki has the following data relevant to the encryption processes:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PASSWORD: The USER password is not stored in the server database, but is kept only on the client (browser used to access the installed platform or application). The PassMonki server stores a password hash, which cannot be reversed in the USER password Because of this restriction on secure storage, which never stores the USER password, only the password recovery protocols described below, which depend on information that the PassMonki server does not have, can be used to recover a password forgotten.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        For the USER to change his current password he must go to the Account Settings section (top right corner of the application) and use the fields: current password, new password and repeat new password
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        If the password is lost or forgotten, the USER can reset the password using the single-use TOKEN, which is generated on the client (never on the PassMonki server) and was sent to the USER's registered email at the time of registration. To do so, the USER must click on the link "Forgot your password" on the Sign in screen and enter the registered email and TOKEN. If these data are correct, a new window will appear with the fields: new password and repeat new password.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        This TOKEN is never accessed by the PassMonki server, it is generated at runtime on the client, and therefore it is the responsibility of the USER to store it safely in a safe place other than PassMonki.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        If the TOKEN is lost, it is possible to generate a new one through the PassMonki system, but only if the USER knows his current password. Just go to the Account Settings section and click on the Resend New Token button and enter the current password. An email will be shipped with your new TOKEN, keep it in a safe place.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PUBLIC KEY AND PRIVATE KEY: In addition to the USER password, the USER's asymmetric key pair (Public Key and Private Key) is automatically stored in the PassMonki client. These keys are used to encrypt and decrypt, respectively, the CREDENTIAL data. the PRIVATE KEY is stored in the bank symmetrically encrypted, using the user's PASSWORD as the key.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        For CREDENTIALS, your data will always be encrypted on the client side, even when accessing the web (HTML), that is, passwords never pass open (in plain text) between the client and the server and are always saved encrypted in the database. Dice.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Thus, only a USER who has access locally on the PassMonki client can share a CREDENTIAL.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VIII - APPLICATION USE LICENSE
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        These T&C grant the USER a revocable, non-exclusive and non-transferable license for use of the online Platform and / or the application. Under no circumstances will the USER have access to the source code of the application now licensed, as this is intellectual property information of the PassMonki.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        IX - RESTRICTIONS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Under no circumstances is the USER or third parties authorized by him, in general:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Copy, assign, sublicense, sell, lease or guarantee, reproduce, donate, dispose of in any way, transfer totally or partially, under any modalities, free of charge or temporarily, temporarily or permanently, the software of the Platform and the application object of these T&C, as well as its modules, parts, manuals or any information that concerns it;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) To remove or change, totally or partially, the reservation of rights notices in the application and in the documentation;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Practice reverse engineering, decompiling or disassembling the application.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        X - DURATION
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        This T&C enters into force on the date of the USER's adhesion to these T&C and will remain in force indefinitely. This T&C will be automatically renewed for equal periods if the USER does not expressly state otherwise. This T&C may be terminated as established in the course of this instrument.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XI - INFORMATION RESTITUTION
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        USER access to our services is suspended, PassMonki will keep USER information stored in the database for a period of 10 days, counting from the suspension of access. After 10 days of suspension of USER access, all your information in possession PassMonki will be permanently deleted from the PassMonki database.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Notwithstanding the above, the information regarding the date and time of access and the internet protocol (IP) address used by the USER to access our services will remain stored by PassMonki for 06 (six) months from the date of each access, regardless of the end of the legal and commercial relationship between PassMonki and the USER, in compliance with the provisions of Article 15 of Law No. 12,965 / 2014, which may be stored for a longer period of time by court order.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XII - USER'S OBLIGATIONS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        USER is obliged to:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Respond for all information entered in the online Platform and / or the Application. PassMonki will under no circumstances be responsible for the content (information, passwords, copies of information, etc.) included in your system, therefore, these are not information reviewed at any time. The responsibility for the information provided to PassMonki will always remain with the USER;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Make sure that it is not prohibited by legal and / or contractual determination to pass on financial, account and personal information, as well as any other data to PassMonki, necessary for the performance of the service offered by this T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Not to use our services in any way that may imply an unlawful act, infraction, violation of rights or damage to PassMonki or third parties, including, but not limited to the use for hacking of a computer device in order to obtain, adulterate or destroy data or information without the express authorization of the data subject or the device or server on which it is stored;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Not to publish, send or transmit any file that contains viruses, worms, Trojan horses or any other program that may contaminate, destroy or interfere with the proper functioning of the Platform and / or the Application;
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIII - OBLIGATIONS OF PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki is obliged to:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) PassMonki guarantees to the USER that the application must function regularly, if the conditions of use defined in the documentation are respected. In the event of programming failures (bugs), PassMonki will undertake to correct such failures, being able to criteria to replace the copy of the failed Programs with corrected copies;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Provide, on a continuous basis, the adhesion to this T&C, full access to services during the term of this T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Suspend access to the USER Application that is not respecting the content rules established herein or the legal rules in force;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Change the specifications and / or characteristics of the online Platform and / or the Application to improve and / or correct errors;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        e) Provide access to support services from Monday to Friday, from 10 am to 7 pm (Brasília time), without a break, by e-mail: passmonki@autoseg.com, to clarify non-technical questions directly related to the Platform or the Application;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        f) Keeping the USER's account information, attendance information and personal information, as well as his access records, in secrecy, with the aforementioned information being stored in a safe environment, respecting intimacy, privacy, honor and the image of the USER, in accordance with the provisions of Law No. 12,965 / 2014 and its regulations.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIV - PASSMONKI DISCLAIMER OF LIABILITY
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki cannot be held responsible, civilly or criminally:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) For failure of operation, operation by unauthorized persons or any other cause in which there is no fault of PassMonki;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) For damages or losses resulting from administrative, managerial or commercial decisions taken based on the information provided by the application;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) For problems defined as "fortuitous event" or "force majeure", contemplated by Art. 393 of the Brazilian Civil Code;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) For any problems arising from actions of third parties that may interfere with the quality of the service;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        e) For damages caused to third parties due to content generated by USERS through an application;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        f) For any damage, loss or loss in the USERS 'equipment caused by failures in the site management system, in the server or on the internet resulting from the conduct of third parties.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki will also not be responsible for any virus that could attack USERS 'equipment as a result of accessing, using or browsing the website or as a result of the transfer of data, files, images, text or audio contained therein.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki adopts appropriate security measures in accordance with industry standards for the protection of USER information stored in its database, as well as for access to USER financial information. However, the USER recognizes that no system, server or software is absolutely immune to attacks and / or invasions by hackers and other malicious agents, and PassMonki is not responsible for any unauthorized deletion, retrieval, use or disclosure of information resulting from attacks that PassMonki could not reasonably avoid using security standards.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XV - RETURN OF APPLICATIONS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki reserves the right to immediately cancel the USER's access to the Platform and the Application in cases where the USER uses the services differently or to achieve purposes other than those stipulated in this T&C.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVI - LIMITATION OF LIABILITY
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        In no event will PassMonki be liable for personal injury or any incidental, special, indirect or consequential loss, including, without limitation, loss of profit, corruption or loss of data, failure to transmit or receive data, non-continuity of business or any other commercial loss or loss, arising out of or related to your use or your inability to use the Platform and / or the Application, for any other reason Under no circumstances will PassMonki's full liability to the USER for all damages exceed the amount corresponding to the service plan paid by the USER.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVII - FREE, EXPRESS AND INFORMED CONSENT FOR ACCESS TO CONFIDENTIAL INFORMATION AND PERSONAL DATA
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER, when fully accepting these T&C, also freely and expressly consents that PassMonki collect, use, store and process his information, including his personal data and his attendance, which will be necessary for the service offered is provided in its entirety.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        To this end, the USER consents, freely and expressly, to provide the data that allow access to the information necessary for the Platform and / or Application software to perform all the functions for which it was designed.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER consents that, when accessing the services through the online platform and / or the PassMonki Application, he / she will be consenting to the collection of technical navigation information, such as the type of computer browser used to access the website, the protocol address of Internet, pages visited and average time spent on the site. Such information may be used to guide the USER himself and improve the services offered.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER freely and expressly consents that his information may be transferred to third parties as a result of the sale, acquisition, merger, corporate reorganization or any other change in the control of PassMonki. PassMonki, however, undertakes, in these cases, to inform the USER.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER freely and expressly consents that PassMonki uses cookies only to control the audience and navigation on its website and to allow the identification of segmented and personalized services to the USER's profile. PassMonki guarantees that this information collected through cookies is statistical. and non-personal, as well as that they will not be used for purposes other than those expressly provided for in this T&C, committing to adopt all necessary measures in order to prevent access and use of such information by any third parties, without due authorization.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVIII - TERMINATION
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER may terminate this T&C at any time, provided he communicates it to PassMonki in writing via e-mail.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki may terminate this T&C at any time, provided that it communicates to the USER, in writing, at least 10 days in advance.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        In the event of termination of this T&C, all data and other information of the USER will be available as already provided for in this Term, and will be permanently deleted after 10 days from the date of termination.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIV - GENERAL PROVISIONS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The tolerance of one party towards the other as to the breach of any of the obligations assumed in these T&C will not imply in novation or waiver of right. The tolerant party may, at any time, demand from the other party the faithful and full compliance with this T&C .
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Failure to comply with the obligations assumed here as a result of facts that are independent of the parties' will not constitute cause for contractual termination, such as those that constitute unforeseeable circumstances or force majeure, as provided for in article 393 of the Brazilian Civil Code.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        If any provision of this T&C is found to be void, voidable, invalid or inoperative, no other provision of this T&C will be affected as a result of this and therefore the remaining provisions of this T&C will remain in full force and effect as if such a null, voidable, invalid provision or inoperative was not contained in this T&C.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        The USER agrees that PassMonki may disclose the celebration of this instrument for commercial purposes, mentioning the USER's name and brand in commercial campaigns, and may even disclose messages sent in writing or orally, by telephone, for use on websites , newspapers, magazines and other campaigns, while this T&C is in effect. The USER also accepts to receive communications via e-mail about news and campaigns related to the application.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki may, at its sole discretion, at any time and without the need for prior communication to the USER:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Terminate, modify or suspend, in whole or in part, the USER's access to the application, when said access or registration is in violation of the conditions established in this T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Delete, totally or partially, the information registered by the USER that is not in accordance with the provisions of this T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Add, delete or modify the content offered on the online Platform and / or the Application;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Change any terms and conditions of this T&C by simply communicating to the USER.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki may still, at its sole discretion, suspend, modify or terminate the services provided, by giving written notice to the USER at least 10 days in advance, providing ways and alternatives to extract from the online Platform and / or the Application the information, except in the event of unforeseeable circumstances or force majeure.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki may, by means of communication to the electronic address indicated by the USER in its registration or by means of a notice on our website, set prices for the offer of certain contents and / or services, even though initially such services were offered in a free of charge, the use of which, after the aforementioned notice, being considered as the USER's agreement with the collection of such prices.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        It is understood and understood by the USER that only the person registered by the USER himself as an account administrator may request that the USER information entered in the Software be deleted. Furthermore, the USER declares his knowledge that once they are deleted, they can no longer be deleted. recovered, PassMonki being exempt from any responsibility for any loss or damage resulting from this procedure requested by the USER.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XX - GUARANTEES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        We strive to provide the best service we can, but you understand and agree that our service is provided, without express or implied warranty, or condition of any kind, that it is fully functional.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        You use our service at your own risk. To the maximum extent permitted by applicable law, PassMonki and USERS make no representations and disclaim any warranties or conditions of satisfactory quality, merchantability and fitness for a particular purpose, or not infringement. Neither PassMonki nor the USER guarantees that the service is free of malware or other harmful components.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        In addition, PassMonki makes no representations or warrant, endorse, warrant or assume responsibility for any third party applications (or the content thereof), the USER content or any other product or service disclosed or offered by a third party on, or through the PassMonki service or any hyperlinked website, or integrated into any banner or other advertising.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        You understand and agree that PassMonki is not responsible for any transactions between you and third-party providers of applications or products, or services advertised on or through our service. As with any purchase of a product or service through any means or in any environment, you must use your judgment and exercise caution where appropriate.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        No guidance or information, whether verbal or written, obtained by you from PassMonki should create any warranty on behalf of PassMonki in this regard. Some aspects of this section may not apply in some jurisdictions if prohibited by applicable law.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        These provisions do not affect your legal rights as a consumer.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XXI - APPLICABLE LAW
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        This T&C will be governed, interpreted and subject to Brazilian laws, and the USER and PassMonki will immediately, irrevocably and irreversibly elect the jurisdiction of the District of the City of São Paulo, State of São Paulo to resolve any doubts or controversies. from this T&C, to the exclusion of any other, however privileged it may be.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XXII - CONTACT US
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        If you have any questions regarding our services or this T&C, please contact PassMonki customer service at passmonki@autoseg.com.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Thank you for reading our Terms and Conditions of Use.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Contracting entity:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        VENDRAMINI TECNOLOGIA EM SISTEMAS LTDA
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing PrivacyPolicy component should snapshot works with portuguese language 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <div
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Component-root Component-root mui-fixed MuiPaper-elevation4"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular WithStyles(ForwardRef(Toolbar))-root"
+      >
+        <div
+          class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+        >
+          <img
+            alt="Logotipo do cabeçalho"
+            class="img-root img-root"
+            src=""
+          />
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root"
+          >
+            <button
+              aria-label="Português"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-portuguese"
+              tabindex="0"
+              title="Português"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Bandeira do Brasil"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="Inglês"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-english"
+              tabindex="0"
+              title="Inglês"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Bandeira do Reino Unido"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="Espanhol"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-spanish"
+              tabindex="0"
+              title="Espanhol"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Bandeira da Espanha"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <div>
+      <h6
+        class="MuiTypography-root Component-root Component-root MuiTypography-h6 MuiTypography-alignCenter"
+      >
+        Termos e Condições de Uso do PassMonki
+      </h6>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        I - INTRODUÇÃO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Bem-vindo ao PassMonki! Convidamos você a acessar nosso site, plataforma, aplicativo e a usar os nossos serviços, mas antes de utilizar o PassMonki é necessário que você leia, entenda e concorde com estes Termos e Condições de Uso (“T&C”). Este documento descreve detalhadamente os seus direitos e os nossos direitos com relação à prestação dos serviços (como definido abaixo). Portanto, leia este T&C cuidadosamente.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para acessar o nosso conteúdo, você precisa ter 18 anos de idade ou mais; ter 16 anos de idade ou mais e ter o consentimento dos seus pais ou responsáveis; ter o poder de celebrar um contrato vinculativo conosco e não ser impedido de fazê-lo segundo quaisquer leis aplicáveis; e ser residente de um país onde o Serviço está disponível. Você também promete que quaisquer informações de cadastro que enviar para nós são verdadeiras, precisas e completas, e concorda em mantê-las dessa forma sempre.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        II - ALTERAÇÃO DOS T&C
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Ocasionalmente, poderemos, a nosso critério, fazer alterações nos T&C. Quando fizermos alterações materiais nos T&C, forneceremos a você um aviso em destaque conforme apropriado segundo as circunstâncias. Em alguns casos, informaremos a você previamente, antes da alteração, e a continuidade da utilização dos serviços por você dependerá da sua concordância com as modificações. Portanto, certifique-se de ler atentamente qualquer aviso que remeta a este assunto. Se você não quiser continuar usando os nossos serviços segundo a nova versão dos T&C, poderá encerrar a sua relação conosco, entrando em contato conosco por meio do e-mail: passmonki@autoseg.com.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        III - ADESÃO AOS TERMOS E CONDIÇÕES DE USO E ANEXOS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Ao se registrar em nosso site, fazer o download do nosso Aplicativo ou acessar a nossa Plataforma online, você aceitará e concordará com estes T&C e com todas as previsões da nossa Política de Privacidade.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        IV – OS SERVIÇOS PRESTADOS PELO PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki é uma plataforma de armazenamento e compartilhamento seguro de senhas e outras informações. Também é uma plataforma de compartilhamento de "scripts", que são pequenos programas de computador, para automatizar processos de login em aplicações, sites e outros recursos computacionais.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Temos as seguintes funcionalidades:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Base de dados de registro e armazenamento seguro de credenciais;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Capacidade de compartilhamento de credenciais com outros usuários da plataforma;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Criptografia de credenciais nos clientes; e
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Automação de processos de login.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        V – DA PROPRIEDADE INTELECTUAL
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO não adquire, pelo presente instrumento ou pela utilização dos serviços, nenhum direito de propriedade intelectual ou outros direitos exclusivos, incluindo patentes, desenhos, marcas, direitos autorais ou quaisquer direitos sobre informações confidenciais ou segredos de negócio, bem como todo o conteúdo disponibilizado na Plataforma online e no Aplicativo, incluindo, mas não se limitando a textos, gráficos, imagens, logotipos, ícones, fotografias, conteúdo editorial, notificações, softwares.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO também não adquire nenhum direito sobre ou relacionado ao software da Plataforma online ou do Aplicativo ou qualquer componente dele, além dos direitos expressamente licenciados ao USUÁRIO sob o presente T&C ou em qualquer outro Termo mutuamente acordado por escrito entre o USUÁRIO e ao PassMonki. Quaisquer direitos não concedidos expressamente sob o presente T&C permanecem reservados.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Também será de propriedade exclusiva do PassMonki ou estará devidamente licenciado, todo o conteúdo disponibilizado na Plataforma online e/ou no Aplicativo, incluindo, mas não se limitando a textos, gráficos, imagens, logos, ícones, fotografias, conteúdo editorial, notificações, softwares e qualquer outro material.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VI – CADASTRO DE USUÁRIOS NA PLATAFORMA ONLINE E NO E APLICATIVO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Apenas será concedido o cadastro para utilização dos nossos serviços ao interessado que preencher todos os dados solicitados pela Plataforma online ou pelo Aplicativo, devendo o interessado se atentar para o uso de informações exatas, precisas e verdadeiras assumindo o compromisso de atualizá-las sempre que ocorrer alguma mudança nesses dados fornecidos.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki não se responsabiliza pela exatidão dos dados inseridos pelos USUÁRIOS. Estes, por sua vez, garantem e respondem, em qualquer caso, pela veracidade, exatidão e autenticidade dos dados inseridos. O PassMonki se reserva o direito de utilizar todos os meios legalmente válidos e possíveis para identificar os USUÁRIOS e seus responsáveis, bem como de solicitar dados adicionais e documentos que considere serem pertinentes, a fim de conferir os dados cadastrais informados.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Os USUÁRIOS autorizam ao PassMonki a conferir a veracidade dos seus dados cadastrais e, caso se constate haver entre eles dados incorretos, conflitantes ou inverídicos, ou ainda caso os USUÁRIOS se furtem ou se neguem a enviar os documentos requeridos para complementação ou comprovação de regularidade, ao PassMonki poderá bloquear seu acesso para uso, suspender temporariamente ou cancelar definitivamente o seu cadastro, sem prejuízo de outras medidas que entender necessárias e oportunas, mediante remessa de aviso, por e-mail, descrevendo a medida e a justificativa dela.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Os USUÁRIOS acessarão os nossos serviços pela Plataforma online ou pelo Aplicativo. Para criar uma conta, os USUÁRIOS nos fornecem um endereço de e-mail e escolhem uma senha. O PassMonki encoraja os USUÁRIOS a usarem uma combinação distinta da utilizada em outros serviços por você e não óbvia de senha. Os USUÁRIOS são responsáveis por manterem a exatidão, integralidade e confidencialidade das suas informações, assim como por todas as atividades que ocorram em sua conta. O PassMonki não será responsável por nenhuma perda ou dano decorrente da sua falha em fornecer informações acuradas ou em manter seguras as suas informações.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Os USUÁRIOS se comprometem a notificar ao PassMonki, imediatamente, e através de meio seguro, a respeito de qualquer uso não autorizado de seu identificador e senha de acesso ou de qualquer tipo acesso não autorizado, porventura realizado por terceiros. Os USUÁRIOS serão os únicos responsáveis pelas operações efetuadas com seu identificador e senha de acesso, uma vez que o acesso às áreas de operação do Aplicativo só será possível mediante a utilização da senha, cujo conhecimento deve ser exclusivo dos USUÁRIOS.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Em nenhuma hipótese será permitida a cessão, venda, aluguel ou outra forma de transferência do identificador e senha de um USUÁRIO. Também não se permitirá a existência ou manutenção de mais de um cadastro por uma mesma pessoa física ou jurídica, ou ainda a criação de novos cadastros por pessoas físicas ou jurídicas cujos cadastros originais tenham sido cancelados ou desabilitados por infrações às políticas do PassMonki
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki se reserva o direito de recusar qualquer solicitação de cadastro e de cancelar um cadastro previamente aceito em virtude de atos, omissões que afrontem as presentes disposições, a política de sigilo e a legislação pátria, sendo remetido um aviso, via e-mail para os USUÁRIOS, com a descrição da medida e a sua justificativa.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VII – DAS SENHAS PESSOAIS DE ACESSO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Ao se cadastrar no PassMonki, será requisitado ao USUÁRIO o registro de uma senha de acesso. Essa senha será a chave para acessar os dados criptografados das credenciais que serão armazenadas no PassMonki.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO deverá cuidar responsavelmente dessa senha, recomendamos utilizar a opção de segundo fator de autenticação configurado na seção Account Settings do menu, localizado no canto superior direito da interface da aplicação, e alterar sua senha em intervalos frequentes.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        No sistema do PassMonki, são utilizados diferentes métodos de criptografia e hash. A maior parte dele está centrada na entidade de USUÁRIO.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Um USUÁRIO no PassMonki possui os seguintes dados relevantes para os processos de criptografia:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        SENHA: A senha do USUÁRIO não é armazenada no banco de dados do servidor, sendo mantida apenas no client (browser utilizado para acesso a plataforma ou aplicativo instalado). O servidor do PassMonki armazena um hash da senha, que NÃO pode ser revertido na senha do USUÁRIO. Por conta dessa restrição no armazenamento seguro, que nunca armazena a senha do USUÁRIO, apenas os protocolos de recuperação de senha descritos abaixo, que dependem de uma informação que o servidor do PassMonki não possui, podem ser utilizados para recuperar uma senha esquecida.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para o USUÁRIO alterar sua senha atual ele deverá ir na seção Account Settings (canto superior direito da aplicação) e utilizar os campos: senha atual, nova senha e repetir nova senha
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Em caso de perda ou esquecimento desta senha o USUÁRIO poderá realizar a redefinição de senha utilizando o TOKEN de uso único, que é gerado no client (nunca no servidor PassMonki) e foi enviado ao e-mail cadastrado do USUÁRIO no momento de seu cadastro na plataforma. Para isso o USUÁRIO deverá clicar no link "Esqueceu sua senha" na tela de Sign in e digitar o e-mail cadastrado e o TOKEN. Caso esses dados estejam corretos uma nova janela aparecerá com os campos: nova senha e repetir nova senha.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Esse TOKEN nunca é acessado pelo servidor PassMonki, sendo gerado em tempo de execução no client, e por isso é da responsabilidade do USUÁRIO armazená-lo com segurança em outro local seguro que não seja o PassMonki.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Caso o TOKEN seja perdido é possível gerar um novo através do sistema do PassMonki, mas apenas se o USUÁRIO souber sua senha atual. Basta acessar a seção Account Settings e clicar no botão Resend New Token e digitar a senha atual. Um e-mail será enviado com seu novo TOKEN, guarde-o em um local seguro.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        CHAVE PÚBLICA E CHAVE PRIVADA: Além da senha do USUÁRIO, é armazenado automaticamente no client do PassMonki o par de chaves assimétricas do USUÁRIO (Chave Pública e Chave Privada). Essas chaves são utilizadas para criptografar e descriptografar, respectivamente, os dados das CREDENCIAIS do USUÁRIO. A CHAVE PRIVADA é armazenada no banco simetricamente criptografada, utilizando a SENHA do usuário como chave.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para as CREDENCIAIS, seus dados sempre serão criptografados do lado do client, mesmo no acesso web (HTML), ou seja, as senhas nunca transitam abertas (em texto puro) entre o client e o servidor e sempre são salvas criptografadas no banco de dados.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Desse modo, somente um USUÁRIO que possui acesso localmente no client PassMonki pode compartilhar uma CREDENCIAL.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VIII - LICENÇA DE USO DO APLICATIVO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Estes T&C concedem ao USUÁRIO uma licença revogável, não exclusiva e intransferível para uso da Plataforma online e/ou do aplicativo. Em nenhuma hipótese o USUÁRIO terá acesso ao código fonte do aplicativo ora licenciado, por este se tratar de informação de propriedade intelectual do PassMonki.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        IX - DAS RESTRIÇÕES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Em hipótese alguma é permitido ao USUÁRIO ou a terceiros por ele autorizados, de forma geral:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Copiar, ceder, sublicenciar, vender, dar em locação ou em garantia, reproduzir, doar, alienar de qualquer forma, transferir total ou parcialmente, sob quaisquer modalidades, gratuita ou onerosamente, provisória ou permanentemente, os softwares da Plataforma e do aplicativo objeto destes T&C, assim como seus módulos, partes, manuais ou quaisquer informações que lhe dizem respeito;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Retirar ou alterar, total ou parcialmente, os avisos de reserva de direito existente no aplicativo e na documentação;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Praticar engenharia reversa, descompilação ou desmontagem do aplicativo.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        X - DA VIGÊNCIA
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O presente T&C entra em vigor na data da adesão do USUÁRIO a estes T&C e vigorará por tempo indeterminado. Este T&C será automaticamente renovado por iguais períodos caso o USUÁRIO não se manifeste expressamente em contrário. Este T&C poderá ser rescindido conforme estabelecido no decorrer deste instrumento.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XI - RESTITUIÇÃO DAS INFORMAÇÕES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Suspenso o acesso do USUÁRIO aos nossos serviços, ao PassMonki manterá as informações do USUÁRIO armazenadas no banco de dados pelo período de 10 dias, contados da suspensão de acesso. Passados 10 dias da suspensão do acesso do USUÁRIO, todas as suas informações em poder do PassMonki serão excluídas permanentemente do banco de dados do PassMonki.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Não obstante o disposto acima, as informações referentes à data e hora de acesso e ao endereço de protocolo de internet (IP) utilizado pelo USUÁRIO para acessar os nossos serviços permanecerão armazenadas pelo PassMonki por 06 (seis) meses a contar da data de cada acesso realizado, independentemente do término da relação jurídica e comercial entre ao PassMonki e o USUÁRIO, em cumprimento ao disposto no Artigo 15 da Lei nº 12.965/2014, podendo ser armazenados por um período maior de tempo mediante ordem judicial.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XII - DAS OBRIGAÇÕES DO USUÁRIO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Obriga-se o USUÁRIO a:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Responder por todas as informações inseridas na Plataforma online e/ou no Aplicativo. O PassMonki em hipótese alguma será responsável pelo conteúdo (informações, senhas, cópias de informações, etc.) incluso em seu sistema, não sendo, portanto, estas informações revisadas em momento algum. A responsabilidade pelas informações fornecidas ao PassMonki será sempre do USUÁRIO;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Certificar-se de que não está proibido por determinação legal e/ou contratual de passar informações financeiras, de conta e pessoais, bem como quaisquer outros dados ao PassMonki, necessários para a execução do serviço oferecido por este T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Não utilizar os nossos serviços de qualquer forma que possa implicar em ato ilícito, infração, violação de direitos ou danos ao PassMonki ou terceiros, incluindo, mas não se limitando ao uso para invasão de dispositivo informático com o objetivo de obter, adulterar ou destruir dados ou informações sem a autorização expressa do titular de tais dados ou do dispositivo ou servidor nos quais estes estejam armazenados;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Não publicar, enviar ou transmitir qualquer arquivo que contenha vírus, worms, cavalos de troia ou qualquer outro programa que possa contaminar, destruir ou interferir no bom funcionamento da Plataforma e/ou do Aplicativo;
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIII - DAS OBRIGAÇÕES DO PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Obriga-se ao PassMonki a:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) O PassMonki garante ao USUÁRIO que o aplicativo deverá funcionar regularmente, se respeitadas as condições de uso definidas na documentação. Na ocorrência de falhas de programação (bugs), o PassMonki obrigar-se-á a corrigir tais falhas, podendo a seu critério substituir a cópia dos Programas com falhas por cópias corrigidas;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Fornecer, ato contínuo a adesão a este T&C, o acesso completo aos serviços durante a vigência deste T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Suspender o acesso ao Aplicativo do USUÁRIO que esteja desrespeitando as regras de conteúdo aqui estabelecidas ou as normas legais em vigor;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Alterar as especificações e/ou características da Plataforma online e/ou do Aplicativo para a melhoria e/ou correções de erros;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        e) Disponibilizar acesso aos serviços de suporte compreendido de segunda a sexta-feira, das 10h às 19h (pelo horário de Brasília), sem intervalo, pelo e-mail: passmonki@autoseg.com, para esclarecimento de dúvidas de ordem não técnica diretamente relacionadas a Plataforma ou ao Aplicativo;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        f) Manter as informações de conta, informações de atendimentos e informações pessoais do USUÁRIO, bem como seus registros de acesso, em sigilo, sendo que as referidas informações serão armazenadas em ambiente seguro, sendo respeitadas a intimidade, a vida privada, a honra e a imagem do USUÁRIO, em conformidade com as disposições da Lei nº 12.965/2014 e seu regulamento.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIV - ISENÇÃO DE RESPONSABILIDADE DO PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki não poderá ser responsabilizada, civil ou penalmente:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Por falha de operação, operação por pessoas não autorizadas ou qualquer outra causa em que não exista culpa do PassMonki;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Pelos danos ou prejuízos decorrentes de decisões administrativas, gerenciais ou comerciais tomadas com base nas informações fornecidas pelo aplicativo;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Por problemas definidos como “caso fortuito” ou “força maior”, contemplados pelo Art. 393 do Código Civil Brasileiro;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Por eventuais problemas oriundos de ações de terceiros que possam interferir na qualidade do serviço;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        e) Por danos causados a terceiros em razão de conteúdo gerado pelos USUÁRIOS através de aplicativo;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        f) Por qualquer dano, prejuízo ou perda nos equipamentos dos USUÁRIOS causados por falhas no sistema de gerenciamento do site, no servidor ou na internet decorrentes de condutas de terceiros.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki também não será responsável por qualquer vírus que possa atacar os equipamentos dos USUÁRIOS em decorrência do acesso, utilização ou navegação no site na internet ou como consequência da transferência de dados, arquivos, imagens, textos ou áudio contidos no mesmo.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki adota as medidas de segurança adequadas de acordo com os padrões de mercado para a proteção das informações do USUÁRIO armazenadas no seu banco de dados, assim como para o acesso às informações financeiras do USUÁRIO. Contudo, o USUÁRIO reconhece que nenhum sistema, servidor ou software está absolutamente imune a ataques e/ou invasões de hackers e outros agentes maliciosos, não sendo o PassMonki responsável por qualquer exclusão, obtenção, utilização ou divulgação não autorizada de informações resultantes de ataques que o PassMonki não poderia razoavelmente evitar por meio dos referidos padrões de segurança.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XV - DA RETOMADA DOS APLICATIVOS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki se reserva o direito de cancelar imediatamente o acesso do USUÁRIO a Plataforma e ao Aplicativo nos casos em que o USUÁRIO usar os serviços de forma diversa ou para atingir fins estranhos àqueles estipulados no presente T&C.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVI - LIMITAÇÃO DE RESPONSABILIDADE
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Em nenhum caso o PassMonki será responsável por danos pessoais ou qualquer prejuízo incidental, especial, indireto ou consequente, incluindo, sem limitação, prejuízos por perda de lucro, corrupção ou perda de dados, falha de transmissão ou recepção de dados, não continuidade do negócio ou qualquer outro prejuízo ou perda comercial, decorrentes ou relacionados ao seu uso ou sua inabilidade em usar a Plataforma e/ou o Aplicativo, por qualquer outro motivo. Sob nenhuma circunstância a responsabilidade integral do PassMonki com relação ao USUÁRIO por todos os danos excederá a quantia correspondente ao plano de serviços pago pelo USUÁRIO.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVII - CONSENTIMENTO LIVRE, EXPRESSO E INFORMADO PARA ACESSO A INFORMAÇÕES CONFIDENCIAIS E DADOS PESSOAIS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO, ao aceitar integralmente estes T&C, também consente, livre e expressamente, que o PassMonki colete, use, armazene e faça o tratamento de suas informações, incluindo seus dados pessoais e de seus atendimentos, os quais serão necessários para que o serviço ofertado seja prestado em sua integralidade.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para tanto, o USUÁRIO consente, livre e expressamente, em fornecer os dados que permitam o acesso às informações necessárias para que o software da Plataforma e/ou do Aplicativo execute todas as funções para as quais foi projetado.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO consente que, ao acessar os serviços mediante a plataforma online e/ou o Aplicativo do PassMonki, estará consentido com a coleta de informações técnicas de navegação, tais como tipo de navegador do computador utilizado para acesso ao site, endereço de protocolo de Internet, páginas visitadas e tempo médio gasto no site. Tais informações poderão ser usadas para orientar o próprio USUÁRIO e melhorar os serviços ofertados.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO consente livre e expressamente que suas informações poderão ser transferidas a terceiros em decorrência da venda, aquisição, fusão, reorganização societária ou qualquer outra mudança no controle do PassMonki. O PassMonki, contudo, compromete-se, nestes casos, a informar o USUÁRIO.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO consente livre e expressamente que o PassMonki utilize cookies apenas para controlar a audiência e a navegação em seu site e possibilitar a identificação de serviços segmentados e personalizados ao perfil do USUÁRIO. O PassMonki garante que estas informações coletadas por meio de cookies são estatísticas e não pessoais, bem como que não serão utilizadas para propósitos diversos dos expressamente previstos neste T&C, comprometendo-se a adotar todas as medidas necessárias a fim de evitar o acesso e o uso de tais informações por quaisquer terceiros, sem a devida autorização.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVIII – DA RESCISÃO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO poderá rescindir este T&C a qualquer tempo, desde que comunique ao PassMonki por escrito via e-mail.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki poderá rescindir este T&C a qualquer tempo, desde que comunique ao USUÁRIO, por escrito, com antecedência mínima de 10 dias.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        No caso de rescisão do presente T&C, todos os dados e demais informações do USUÁRIO ficarão disponíveis conforme já previsto neste Termo, e serão excluídos permanentemente após 10 dias da data da rescisão.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIV – DAS DISPOSIÇÕES GERAIS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        A tolerância de uma parte para com a outra quanto ao descumprimento de qualquer uma das obrigações assumidas nestes T&C não implicará em novação ou renúncia de direito. A parte tolerante poderá, a qualquer tempo, exigir da outra parte o fiel e cabal cumprimento deste T&C.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Não constitui causa de rescisão contratual o não cumprimento das obrigações aqui assumidas em decorrência de fatos que independam da vontade das partes, tais como os que configuram o caso fortuito ou força maior, conforme previsto no artigo 393 do Código Civil Brasileiro.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Se qualquer disposição deste T&C for considerada nula, anulável, inválida ou inoperante, nenhuma outra disposição deste T&C será afetada como consequência disso e, portanto, as disposições restantes deste T&C permanecerão em pleno vigor e efeito como se tal disposição nula, anulável, inválida ou inoperante não estivesse contida neste T&C.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O USUÁRIO concorda que o PassMonki possa divulgar a celebração deste instrumento para fins comerciais, fazendo menção ao nome e à marca do USUÁRIO em campanhas comerciais, podendo, inclusive, divulgar mensagens enviadas de forma escrita ou oral, por telefone, para uso em sites, jornais, revistas e outras campanhas, enquanto vigorar o presente T&C. O USUÁRIO aceita, ainda, receber comunicações via correio eletrônico sobre novidades e campanhas relacionadas ao aplicativo.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki poderá, ao seu exclusivo critério, a qualquer tempo e sem a necessidade de comunicação prévia ao USUÁRIO:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Encerrar, modificar ou suspender, total ou parcialmente, o acesso do USUÁRIO ao aplicativo, quando referido acesso ou cadastro estiver em violação das condições estabelecidas neste T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Excluir, total ou parcialmente, as informações cadastradas pelo USUÁRIO que não estejam em consonância com as disposições deste T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Acrescentar, excluir ou modificar o conteúdo oferecido na Plataforma online e/ou no Aplicativo;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Alterar quaisquer termos e condições deste T&C mediante simples comunicação ao USUÁRIO.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki ainda poderá, a seu exclusivo critério, suspender, modificar ou encerrar os serviços prestados, mediante comunicação prévia por escrito ao USUÁRIO, com antecedência mínima de 10 dias, disponibilizando formas e alternativas de extrair da Plataforma online e/ou do Aplicativo as informações, salvo nas hipóteses de caso fortuito ou força maior.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        O PassMonki poderá, por meio de comunicação ao endereço eletrônico indicado pelo USUÁRIO em seu cadastro ou por meio de aviso no nosso site, definir preços para a oferta de determinados conteúdos e/ou serviços, ainda que inicialmente tais serviços tenham sido ofertados de forma gratuita, sendo a utilização destes, após o referido aviso, considerada como de concordância do USUÁRIO com a cobrança de tais preços.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Fica certo e entendido pelo USUÁRIO que somente a pessoa cadastrada pelo próprio USUÁRIO como administradora de conta poderá solicitar que as informações do USUÁRIO inseridas no Software sejam apagadas. Ainda, o USUÁRIO declara sua ciência de que uma vez apagadas, estas não poderão mais ser recuperadas, ficando o PassMonki isenta de qualquer responsabilidade por quaisquer perdas ou danos decorrentes deste procedimento solicitado pelo USUÁRIO.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XX – DAS GARANTIAS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Nós nos empenhamos para prestar o melhor serviço que pudermos, mas você compreende e concorda que o nosso serviço é prestado, sem garantia expressa ou implícita, ou condição de qualquer tipo, de pleno funcionamento.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Você usa o nosso serviço por sua conta e risco. Na medida máxima permitida pela lei aplicável, o PassMonki e os USUÁRIOS não fazem nenhuma declaração e renunciam a quaisquer garantias ou condições de qualidade satisfatória, comerciabilidade e adequação para uma determinada finalidade, ou não infração. Nem o PassMonki, nem USUÁRIO, garante que o serviço esteja livre de malware ou outros componentes prejudiciais.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Além disso, PassMonki não faz declarações nem assegura, endossa, garante ou assume a responsabilidade por quaisquer aplicativos de terceiros (ou pelo conteúdo deste), pelo conteúdo do USUÁRIO ou por qualquer outro produto ou serviço divulgado ou oferecido por um terceiro no, ou por meio do, serviço do PassMonki ou qualquer site com hiperlinks, ou integrado em qualquer banner ou outra propaganda.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Você compreende e concorda que o PassMonki não é responsável por nenhuma transação entre você e provedores terceiros de aplicativos ou produtos, ou serviços divulgados em ou por meio do nosso serviço. Assim como ocorre com qualquer compra de produto ou serviço através de qualquer meio ou em qualquer ambiente, você deve usar seu discernimento e ter cautela onde for apropriado.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Nenhuma orientação ou informação, seja verbal ou por escrito, obtida por você junto ao PassMonki deverá criar qualquer garantia em nome do PassMonki a esse respeito. Alguns aspectos dessa seção poderão não se aplicar em algumas jurisdições se forem proibidos pela lei aplicável.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Essas disposições não afetam seus direitos legais como consumidor.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XXI – DA LEI APLICÁVEL
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Este T&C será regido, interpretado e se sujeitará às leis brasileiras e, o USUÁRIO e o PassMonki desde logo elegem, de forma irrevogável e irretratável, o foro da Comarca da Cidade de São Paulo, Estado de São Paulo para dirimir quaisquer dúvidas ou controvérsias oriundas deste T&C, com a exclusão de qualquer outro, por mais privilegiado que seja.
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XXII – ENTRE EM CONTATO CONOSCO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Se você tiver dúvidas relacionadas aos nossos serviços ou ao presente T&C, entre em contato com o atendimento ao cliente do PassMonki pelo e-mail passmonki@autoseg.com.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Agradecemos pela leitura dos nossos Termos e Condições de Uso.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Entidade contratante:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        VENDRAMINI TECNOLOGIA EM SISTEMAS LTDA
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`testing PrivacyPolicy component should snapshot works with spanish language 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root Component-root Component-root"
+  >
+    <div
+      class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary Component-root Component-root mui-fixed MuiPaper-elevation4"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular WithStyles(ForwardRef(Toolbar))-root"
+      >
+        <div
+          class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+        >
+          <img
+            alt="Logotipo de encabezado"
+            class="img-root img-root"
+            src=""
+          />
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root"
+          >
+            <button
+              aria-label="Portugués"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-portuguese"
+              tabindex="0"
+              title="Portugués"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Bandera de Brasil"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="Inglés"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-english"
+              tabindex="0"
+              title="Inglés"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Bandera del Reino Unido"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="Español"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="change-language-spanish"
+              tabindex="0"
+              title="Español"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <img
+                  alt="Bandera de España"
+                  class="img-root img-root"
+                  src=""
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthMd"
+  >
+    <div>
+      <h6
+        class="MuiTypography-root Component-root Component-root MuiTypography-h6 MuiTypography-alignCenter"
+      >
+        Términos y Condiciones de Uso de PassMonk
+      </h6>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        I - INTRODUCCIÓN
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        ¡Bienvenido a PassMonki! Lo invitamos a acceder a nuestro sitio web, plataforma, aplicación y usar nuestros servicios, pero antes de usar PassMonki debe leer, comprender y aceptar estos Términos y condiciones de uso ("T&C"). Este documento describe en detalle sus derechos y nuestros derechos con respecto a la provisión de servicios (como se define a continuación). Por lo tanto, lea detenidamente estos Términos y condiciones
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para acceder a nuestro contenido, debe tener 18 años o más; tener 16 años o más y contar con el consentimiento de sus padres o tutores; tener el poder de celebrar un contrato vinculante con nosotros y no se le debe impedir hacerlo. según las leyes aplicables y ser residente de un país donde el Servicio está disponible. También promete que cualquier información de registro que nos envíe es verdadera, precisa y completa, y acepta mantenerla así en todo momento
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        II - CAMBIO DE T&C
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        De vez en cuando, podemos, a nuestro criterio, realizar cambios en los T&C. Cuando realicemos cambios materiales en los T&C, le proporcionaremos un aviso destacado según corresponda según las circunstancias. En algunos casos, le informaremos por adelantado, antes del cambio y la continuidad el uso de los servicios por usted dependerá de su acuerdo con los cambios, así que asegúrese de leer cuidadosamente cualquier aviso que se refiera a este tema. Si no desea continuar utilizando nuestros servicios bajo la nueva versión de los Términos y condiciones, puede finalizar su relación con nosotros contactándonos por correo electrónico: passmonki@autoseg.com
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        III - ADHERENCIA A LOS TÉRMINOS Y CONDICIONES DE USO Y ACCESORIOS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Al registrarse en nuestro sitio web, descargar nuestra Aplicación o acceder a nuestra Plataforma en línea, aceptará y aceptará estos Términos y condiciones y todas las disposiciones de nuestra Política de privacidad
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        IV - SERVICIOS PROPORCIONADOS POR PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki es una plataforma para el almacenamiento seguro y el intercambio de contraseñas y otra información. También es una plataforma para compartir " scripts ", que son pequeños programas informáticos, para automatizar los procesos de inicio de sesión en aplicaciones, sitios web y otros recursos informáticos.
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Tenemos las siguientes características:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Base de datos de registro y almacenamiento seguro de credenciales
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Capacidad para compartir credenciales con otros usuarios de la plataforma;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Cifrado de credenciales en clientes; y
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        • Automatización de procesos de inicio de sesión
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        V - PROPIEDAD INTELECTUAL
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO no adquiere, por este instrumento o por el uso de los servicios, ningún derecho de propiedad intelectual u otros derechos exclusivos, incluidas patentes, diseños, marcas registradas, derechos de autor o cualquier derecho sobre información confidencial o secretos comerciales, así como todo el contenido disponible en la Plataforma en línea y la Aplicación, incluidos, entre otros, textos, gráficos, imágenes, logotipos, iconos, fotografías, contenido editorial, notificaciones, software
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO tampoco adquiere ningún derecho sobre o relacionado con el software de la Plataforma en línea o la Aplicación o cualquier componente de la misma, además de los derechos expresamente otorgados al USUARIO bajo este T&C o cualquier otro Término acordado por escrito entre el USUARIO y PassMonki Todos los derechos no otorgados expresamente en este T&C quedan reservados
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        También será propiedad exclusiva de PassMonki o tendrá una licencia adecuada, todo el contenido disponible en la Plataforma en línea y / o la Aplicación, incluidos, entre otros, textos, gráficos, imágenes, logotipos, iconos, fotografías, contenido editorial, notificaciones, software y cualquier otro material
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VI - REGISTRO DE USUARIOS EN LA PLATAFORMA EN LÍNEA Y EN LA APLICACIÓN
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Solo se otorgará el registro para el uso de nuestros servicios a la parte interesada que complete todos los datos solicitados por la Plataforma en línea o la Aplicación, y la parte interesada debe prestar atención al uso de información precisa, precisa y verdadera, asumiendo el compromiso de actualizarlos siempre que sea necesario. hay algún cambio en los datos proporcionados
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki no es responsable de la exactitud de los datos ingresados ​​por los USUARIOS. Estos, a su vez, garantizan y responden, en cualquier caso, por la veracidad, precisión y autenticidad de los datos ingresados. PassMonki se reserva el derecho de utilizar todos los medios legalmente válido y posible para identificar a los USUARIOS y sus responsables, así como para solicitar datos y documentos adicionales que consideren pertinentes, a fin de verificar los datos de registro informados
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Los USUARIOS autorizan a PassMonki a verificar la veracidad de sus datos de registro y, si se descubre que hay datos incorrectos, contradictorios o falsos entre ellos, o incluso si los USUARIOS tergiversan o se niegan a enviar los documentos requeridos para completar o probar la regularidad , PassMonki podrá bloquear su acceso para el uso, suspender temporalmente o cancelar permanentemente su registro, sin perjuicio de otras medidas que considere necesarias y oportunas, enviando un aviso, por correo electrónico, describiendo la medida y su justificación
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Los USUARIOS accederán a nuestros servicios a través de la Plataforma en línea o la Aplicación. Para crear una cuenta, los USUARIOS nos proporcionan una dirección de correo electrónico y eligen una contraseña. PassMonki alienta a los USUARIOS a usar una combinación diferente a la utilizada en otros servicios por usted y no una contraseña obvia. Los USUARIOS son responsables de mantener la precisión, integridad y confidencialidad de su información, así como de todas las actividades que ocurran en su cuenta. PassMonki no será responsable de ninguna pérdida o daño resultante de su falta de proporcionar información precisa o mantener su información segura
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Los USUARIOS se comprometen a notificar a PassMonki, de inmediato y por medios seguros, sobre cualquier uso no autorizado de su identificador y contraseña o de cualquier tipo de acceso no autorizado, tal vez por terceros. Los USUARIOS serán los únicos. responsable de las operaciones realizadas con su identificador y contraseña de acceso, ya que el acceso a las áreas de operación de la Aplicación solo será posible mediante el uso de la contraseña, cuyo conocimiento debe ser exclusivo de los USUARIOS
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        En ningún caso se permitirá la asignación, venta, alquiler o cualquier otra forma de transferir el identificador y la contraseña de un USUARIO. Tampoco se permitirá la existencia o mantenimiento de más de un registro por la misma persona física o jurídica, o la creación de nuevos registros de personas físicas o jurídicas cuyos registros originales han sido cancelados o deshabilitados debido a violaciones de las políticas de PassMonki
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki se reserva el derecho de rechazar cualquier solicitud de registro y cancelar un registro previamente aceptado debido a actos, omisiones que violan estas disposiciones, la política de confidencialidad y la legislación nacional, y se envía un aviso por correo electrónico. para USUARIOS, con la descripción de la medida y su justificación
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VII - CONTRASEÑAS DE ACCESO PERSONAL
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Al registrarse con PassMonki, se le solicitará al USUARIO que registre una contraseña de acceso. Esta contraseña será la clave para acceder a los datos de credenciales cifrados que se almacenarán en PassMonki
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO debe ocuparse de esta contraseña de manera responsable, le recomendamos utilizar el segundo factor de opción de autenticación configurado en la sección Configuración de la cuenta del menú, ubicado en la esquina superior derecha de la interfaz de la aplicación, y cambiar su contraseña a intervalos frecuentes
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        En el sistema PassMonki, se utilizan diferentes métodos de cifrado y hash. La mayor parte se centra en la entidad USUARIO
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Un USUARIO en PassMonki tiene los siguientes datos relevantes para los procesos de cifrado:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        CONTRASEÑA: La contraseña del USUARIO no se almacena en la base de datos del servidor, sino que se mantiene solo en el cliente (el navegador se utiliza para acceder a la plataforma o aplicación instalada). El servidor PassMonki almacena un hash de contraseña, que no se puede revertir en el Contraseña del USUARIO Debido a esta restricción en el almacenamiento seguro, que nunca almacena la contraseña del USUARIO, solo los protocolos de recuperación de contraseña que se describen a continuación, que dependen de la información que el servidor PassMonki no tiene, pueden usarse para recuperar una contraseña olvidado
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para que el USUARIO cambie su contraseña actual, debe ir a la sección Configuración de la cuenta (esquina superior derecha de la aplicación) y usar los campos: contraseña actual, nueva contraseña y repetir nueva contraseña
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Si la contraseña se pierde o se olvida, el USUARIO puede restablecer la contraseña utilizando el TOKEN de un solo uso, que se genera en el cliente (nunca en el servidor PassMonki) y se envió al correo electrónico registrado del USUARIO en el momento del registro Para hacerlo, el USUARIO debe hacer clic en el enlace "Olvidó su contraseña" en la pantalla de inicio de sesión e ingresar el correo electrónico registrado y TOKEN. Si estos datos son correctos, aparecerá una nueva ventana con los campos: nueva contraseña y repetir nueva contraseña
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El servidor PassMonki nunca accede a este TOKEN, se genera en tiempo de ejecución en el cliente y, por lo tanto, es responsabilidad del USUARIO almacenarlo de forma segura en un lugar seguro que no sea PassMonki
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Si se pierde el TOKEN, es posible generar uno nuevo a través del sistema PassMonki, pero solo si el USUARIO conoce su contraseña actual. Simplemente vaya a la sección Configuración de la cuenta y haga clic en el botón Reenviar token nuevo e ingrese la contraseña actual. Un correo electrónico será enviado con su nuevo TOKEN, guárdelo en un lugar seguro
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        CLAVE PÚBLICA Y CLAVE PRIVADA: además de la contraseña del USUARIO, el par de claves asimétricas del USUARIO (Clave pública y Clave privada) se almacena automáticamente en el cliente PassMonki. Estas claves se utilizan para cifrar y descifrar, respectivamente, los datos CREDENCIALES. la CLAVE PRIVADA se almacena en el banco cifrado simétricamente, utilizando la CONTRASEÑA del usuario como clave
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para CREDENCIALES, sus datos siempre se cifrarán en el lado del cliente, incluso cuando acceda a la web (HTML), es decir, las contraseñas nunca se abren (en texto plano) entre el cliente y el servidor y siempre se guardan cifradas en la base de datos. datos
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Por lo tanto, solo un USUARIO que tenga acceso local en el cliente PassMonki puede compartir una CREDENCIAL
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        VIII - LICENCIA DE USO DE LA APLICACIÓN
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Estos T&C otorgan al USUARIO una licencia revocable, no exclusiva e intransferible para el uso de la Plataforma en línea y / o la aplicación. En ningún caso el USUARIO tendrá acceso al código fuente de la aplicación ahora licenciada, ya que esta es información de propiedad intelectual del PassMonki
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        IX - RESTRICCIONES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Bajo ninguna circunstancia el USUARIO o terceros están autorizados por él, en general:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Copiar, asignar, sublicenciar, vender, arrendar o garantizar, reproducir, donar, disponer de cualquier manera, transferir total o parcialmente, bajo cualquier modalidad, de forma gratuita o por una tarifa, de manera provisional o permanente, el software de la Plataforma y la aplicación objeto de estos T&C, así como sus módulos, partes, manuales o cualquier información que le concierna;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Eliminar o cambiar, total o parcialmente, el reserva de avisos de derechos en la solicitud y en la documentación;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Practicar ingeniería inversa, descompilar o desensamblar la aplicación
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        X - DURACIÓN
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Este T&C entrará en vigencia en la fecha de adhesión del USUARIO a estos T&C y permanecerá en vigencia indefinidamente. Estos T&C se renovarán automáticamente por períodos iguales si el USUARIO no declara expresamente lo contrario. Estos T&C pueden rescindirse según lo establecido en el curso de este instrumento
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XI - RESTITUCIÓN DE LA INFORMACIÓN
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El acceso del USUARIO a nuestros servicios está suspendido, PassMonki mantendrá la información del USUARIO almacenada en la base de datos por un período de 10 días, contando desde la suspensión del acceso. Después de 10 días de la suspensión del acceso del USUARIO, toda su información estará en poder PassMonki se eliminará permanentemente de la base de datos PassMonki
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        No obstante lo anterior, la información sobre la fecha y hora de acceso y la dirección de protocolo de Internet (IP) utilizada por el USUARIO para acceder a nuestros servicios permanecerá almacenada por PassMonki durante 06 (seis) meses a partir de la fecha de cada acceso, independientemente del final de la relación legal y comercial entre PassMonki y el USUARIO, de conformidad con las disposiciones del Artículo 15 de la Ley N ° 12.965 / 2014, que pueden almacenarse durante un período de tiempo más largo por orden judicial
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XII - OBLIGACIONES DEL USUARIO
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO está obligado a:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Responda por toda la información ingresada en la Plataforma en línea y / o la Aplicación. PassMonki no será en ningún caso responsable del contenido (información, contraseñas, copias de la información, etc.) incluido en su sistema, por lo tanto, estos no son información revisada en cualquier momento. La responsabilidad de la información proporcionada a PassMonki siempre será del USUARIO
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Asegúrese de que no esté prohibido por determinación legal y / o contractual transmitir información financiera, de cuenta y personal, así como cualquier otro dato a PassMonki, necesario para el desempeño del servicio ofrecido por este T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) No utilizar nuestros servicios de ninguna manera que pueda implicar un acto ilegal, infracción, violación de derechos o daños a PassMonki o terceros, incluido, entre otros, el uso para piratear un dispositivo informático para obtener, adulterar o destruir datos o información sin la autorización expresa del interesado o del dispositivo o servidor en el que está almacenado
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) No publicar, enviar o transmitir ningún archivo que contenga virus, gusanos, caballos de Troya o cualquier otro programa que pueda contaminar, destruir o interferir con el funcionamiento adecuado de la Plataforma y / o la Aplicación;
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIII - OBLIGACIONES DE PASSMONKI
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki está obligado a:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) PassMonki garantiza al USUARIO que la aplicación debe funcionar regularmente, si se respetan las condiciones de uso definidas en la documentación. En caso de errores de programación (errores), PassMonki estará obligado a corregir tales fallas, pudiendo criterios para reemplazar la copia de los Programas fallidos con copias corregidas;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Proporcionar, de forma continua, la adhesión a estos T&C, acceso total a los servicios durante el plazo de estos T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Suspender el acceso a la Aplicación del USUARIO que no respete las reglas de contenido establecidas en este documento o las reglas legales vigentes;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Cambiar las especificaciones y / o características de la Plataforma en línea y / o la Aplicación para mejorar y / o corregir errores;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        e) Proporcionar acceso a servicios de soporte de lunes a viernes, de 10 a.m. a 7 p.m. (hora de Brasilia), sin interrupción, por correo electrónico: passmonki@autoseg.com, para aclarar preguntas no técnicas directamente relacionado con la Plataforma o la Aplicación
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        f) Mantener la información de la cuenta del USUARIO, la información de asistencia y la información personal, así como sus registros de acceso, en secreto, con la información antes mencionada almacenada en un entorno seguro, respetando la intimidad, la privacidad y el honor. y la imagen del USUARIO, de conformidad con lo dispuesto en la Ley N ° 12.965 / 2014 y sus reglamentos
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIV - PASSMONKI RENUNCIA DE RESPONSABILIDAD
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki no puede ser considerado responsable, civil o penalmente:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Por falla de la operación, operación por personas no autorizadas o cualquier otra causa en la que no haya fallas de PassMonki;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Por daños o pérdidas resultantes de decisiones administrativas, gerenciales o comerciales tomadas con base en la información proporcionada por la aplicación;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Para problemas definidos como "evento fortuito" o "fuerza mayor", contemplados en el Art. 393 del Código Civil brasileño
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Por cualquier problema que surja de acciones de terceros que puedan interferir con la calidad del servicio;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        e) Por daños causados ​​a terceros debido al contenido generado por los USUARIOS a través de una aplicación;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        f) Por cualquier daño, pérdida o pérdida en el equipo de los USUARIOS causada por fallas en el sistema de administración del sitio, en el servidor o en Internet como resultado de la conducta de terceros
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki tampoco será responsable de ningún virus que pueda atacar el equipo de los USUARIOS como resultado de acceder, usar o navegar por el sitio web o como resultado de la transferencia de datos, archivos, imágenes, texto o audio contenido en él
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki adopta medidas de seguridad apropiadas de acuerdo con los estándares de la industria para la protección de la información del USUARIO almacenada en su base de datos, así como para el acceso a la información financiera del USUARIO. Sin embargo, el USUARIO reconoce que ningún sistema, el servidor o el software es absolutamente inmune a los ataques y / o invasiones de piratas informáticos y otros agentes maliciosos, y PassMonki no es responsable de la eliminación, recuperación, uso o divulgación no autorizada de la información resultante de los ataques que PassMonki no podría evitar razonablemente usar normas de seguridad
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XV - DEVOLUCIÓN DE APLICACIONES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki se reserva el derecho de cancelar de inmediato el acceso del USUARIO a la Plataforma y la Aplicación en los casos en que el USUARIO use los servicios de manera diferente o para lograr fines distintos de los estipulados en estos T&C
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVI - LIMITACIÓN DE RESPONSABILIDAD
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        En ningún caso PassMonki será responsable por lesiones personales o cualquier pérdida incidental, especial, indirecta o consecuente, incluyendo, sin limitación, pérdida de ganancias, corrupción o pérdida de datos, falta de transmisión o recepción de datos, no continuidad de pérdida comercial o cualquier otra pérdida comercial, que surja de o esté relacionada con su uso o su incapacidad para usar la Plataforma y / o la Aplicación, por cualquier otro motivo Bajo ninguna circunstancia la responsabilidad total de PassMonki ante el USUARIO por todos los daños excederá el importe correspondiente al plan de servicio pagado por el USUARIO
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVII - CONSENTIMIENTO GRATUITO, EXPRESO E INFORMADO PARA ACCEDER A INFORMACIÓN CONFIDENCIAL Y DATOS PERSONALES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO, al aceptar completamente estos T&C, también acepta libre y expresamente que PassMonki recopile, use, almacene y procese su información, incluidos sus datos personales y su asistencia, que serán necesarios para el servicio se ofrece en su totalidad
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Para este fin, el USUARIO consiente, de manera libre y expresa, en proporcionar los datos que permiten el acceso a la información necesaria para que la Plataforma y / o el software de la Aplicación realice todas las funciones para las que fue diseñada
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO consiente que, al acceder a los servicios a través de la plataforma en línea y / o la Aplicación PassMonki, él / ella dará su consentimiento para la recopilación de información técnica de navegación, como el tipo de navegador de computadora utilizado para acceder al sitio web, la dirección de protocolo de Internet, páginas visitadas y tiempo promedio de permanencia en el sitio. Dicha información puede usarse para guiar al USUARIO mismo y mejorar los servicios ofrecidos
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO consiente libre y expresamente que su información puede ser transferida a terceros como resultado de la venta, adquisición, fusión, reorganización corporativa o cualquier otro cambio en el control de PassMonki. PassMonki, sin embargo, se compromete, en estos casos, a informar al USUARIO
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO acepta libre y expresamente que PassMonki utiliza cookies solo para controlar la audiencia y la navegación en su sitio web y para permitir la identificación de servicios segmentados y personalizados para el perfil del USUARIO. PassMonki garantiza que esta información recopilada a través de cookies es estadística. y no personales, así como que no se utilizarán para fines distintos de los expresamente previstos en estos T&C, comprometiéndose a adoptar todas las medidas necesarias para evitar el acceso y uso de dicha información por parte de terceros, sin la debida autorización
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XVIII - TERMINACIÓN
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO puede rescindir este T&C en cualquier momento, siempre que se lo comunique a PassMonki por escrito por correo electrónico
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki puede rescindir este T&C en cualquier momento, siempre que se comunique al USUARIO, por escrito, con al menos 10 días de antelación
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        En caso de rescisión de estos T&C, todos los datos y otra información del USUARIO estarán disponibles como ya se estipula en este Plazo, y se eliminarán permanentemente después de 10 días a partir de la fecha de rescisión
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XIV - DISPOSICIONES GENERALES
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        La tolerancia de una parte hacia la otra en cuanto al incumplimiento de cualquiera de las obligaciones asumidas en estos T&C no implicará una novación o renuncia al derecho. La parte tolerante puede, en cualquier momento, exigir a la otra parte el cumplimiento fiel y total de estos T&C
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El incumplimiento de las obligaciones asumidas aquí como resultado de hechos que son independientes de las partes no constituirá causa de terminación contractual, como las que constituyen circunstancias imprevisibles o fuerza mayor, según lo dispuesto en el artículo 393 del Código Civil brasileño
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Si se determina que alguna disposición de estos T&C es nula, anulable, inválida o inoperante, ninguna otra disposición de estos T&C se verá afectada como resultado de esto y, por lo tanto, las disposiciones restantes de estos T&C permanecerán en pleno vigor y efecto como si fuera una disposición nula, anulable e inválida o inoperante no figuraba en este TyC
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO acepta que PassMonki puede divulgar la celebración de este instrumento con fines comerciales, mencionando el nombre y la marca del USUARIO en campañas comerciales, e incluso puede divulgar mensajes enviados por escrito u oralmente, por teléfono, para su uso en sitios web , periódicos, revistas y otras campañas, mientras este T&C está vigente. El USUARIO también acepta recibir comunicaciones por correo electrónico sobre noticias y campañas relacionadas con la aplicación
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki puede, a su sola discreción, en cualquier momento y sin la necesidad de comunicación previa con el USUARIO:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        a) Terminar, modificar o suspender, total o parcialmente, el acceso del USUARIO a la aplicación, cuando dicho acceso o registro esté en violación de las condiciones establecidas en estos T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        b) Eliminar, total o parcialmente, la información registrada por el USUARIO que no esté en línea con las disposiciones de estos T&C;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        c) Agregar, eliminar o modificar el contenido ofrecido en la Plataforma en línea y / o la Aplicación;
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        d) Cambie los términos y condiciones de estos T&C simplemente comunicándose con el USUARIO
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki puede, a su exclusivo criterio, suspender, modificar o finalizar los servicios prestados, mediante notificación por escrito al USUARIO con al menos 10 días de anticipación, proporcionando formas y alternativas para extraer de la Plataforma en línea y / o la Aplicación información, excepto en el caso de circunstancias imprevistas o de fuerza mayor
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        PassMonki puede, mediante comunicación a la dirección electrónica indicada por el USUARIO en su registro o mediante un aviso en nuestro sitio web, establecer precios para la oferta de ciertos contenidos y / o servicios, aunque inicialmente dichos servicios se ofrecieron en un sin cargo, cuyo uso, después de la notificación antes mencionada, se considera como el acuerdo del USUARIO con la recaudación de dichos precios
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        El USUARIO entiende y entiende que solo la persona registrada por el USUARIO como administrador de la cuenta puede solicitar que se borre la información del USUARIO ingresada en el Software. Además, el USUARIO declara su conocimiento de que una vez que se eliminan, ya no se pueden eliminar. recuperado, PassMonki queda exento de cualquier responsabilidad por cualquier pérdida o daño resultante de este procedimiento solicitado por el USUARIO
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XX - GARANTÍAS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Nos esforzamos por brindar el mejor servicio posible, pero usted comprende y acepta que nuestro servicio se brinda, sin garantía expresa o implícita, ni condición de ningún tipo, de que sea completamente funcional
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Usted utiliza nuestro servicio bajo su propio riesgo. En la medida máxima permitida por la ley aplicable, PassMonki y los USUARIOS no hacen representaciones y renuncian a garantías o condiciones de calidad satisfactoria, comerciabilidad e idoneidad para un propósito particular, o no infracción. Ni PassMonki ni el USUARIO garantizan que el servicio esté libre de malware u otros componentes dañinos
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Además, PassMonki no hace representaciones ni garantiza, respalda, garantiza o asume la responsabilidad de las aplicaciones de terceros (o el contenido de las mismas), el contenido del USUARIO o cualquier otro producto o servicio divulgado u ofrecido por un tercero en, o a través del servicio PassMonki o cualquier sitio web con hipervínculos, o integrado en cualquier banner u otro anuncio
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Usted comprende y acepta que PassMonki no es responsable de ninguna transacción entre usted y terceros proveedores de aplicaciones o productos, o servicios anunciados en oa través de nuestro servicio. Al igual que con cualquier compra de un producto o servicio a través de cualquier medio o en cualquier entorno, debe usar su criterio y actuar con precaución cuando corresponda
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Ninguna orientación o información, ya sea verbal o escrita, obtenida por usted de PassMonki debe crear una garantía en nombre de PassMonki a este respecto. Algunos aspectos de esta sección pueden no aplicarse en algunas jurisdicciones si lo prohíbe la ley aplicable
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Estas disposiciones no afectan sus derechos legales como consumidor
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XXI - LEY APLICABLE
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Este T&C se regirá, interpretará y estará sujeto a las leyes brasileñas, y el USUARIO y PassMonki elegirán de manera inmediata, irrevocable e irreversible la jurisdicción del Distrito de la Ciudad de São Paulo, Estado de São Paulo para resolver cualquier duda o controversia. de este T&C, a la exclusión de cualquier otro, por privilegiado que sea
+      </p>
+      <h2
+        class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+      >
+        XXII - CONTÁCTENOS
+      </h2>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Si tiene alguna pregunta con respecto a nuestros servicios o estos T&C, comuníquese con el servicio al cliente de PassMonki en passmonki@autoseg.com
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Gracias por leer nuestros Términos y condiciones de uso
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        Entidad contratante:
+      </p>
+      <p
+        class="MuiTypography-root Component-root Component-root MuiTypography-body2"
+      >
+        VENDRAMINI TECNOLOGIA EM SISTEMAS LTDA
+      </p>
+    </div>
+  </div>
+</div>
+`;

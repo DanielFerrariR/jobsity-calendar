@@ -1,0 +1,37 @@
+import { Grid, Button } from 'src/components/atoms'
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
+
+<Meta title="Components/atoms/Grid" component={Grid} />
+
+# Grid
+
+This component was created from Grid of [@material-ui](https://material-ui.com).
+
+[Grid API](https://material-ui.com/api/grid/)
+
+We also use the following additional props from [@material-ui/system/basics](https://material-ui.com/system/basics/):
+
+[Borders API](https://material-ui.com/system/borders)
+
+[Flexbox API](https://material-ui.com/system/flexbox)
+
+[Pallete API](https://material-ui.com/system/pallete)
+
+[Sizing API](https://material-ui.com/system/sizing)
+
+[Spacing API](https://material-ui.com/system/spacing)
+
+<Preview>
+  <Story name="grid">
+    <Grid container spacing={2}>
+      <Grid item xs={12} sm={6}>
+        <Button width={1}>Button</Button>
+      </Grid>
+      <Grid item xs={12} sm={6}>
+        <Button width={1} color="secondary">
+          Button
+        </Button>
+      </Grid>
+    </Grid>
+  </Story>
+</Preview>

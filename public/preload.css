@@ -1,0 +1,33 @@
+@keyframes fadeAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+#loading {
+  animation: fadeAnimation 2s linear infinite;
+  opacity: 0;
+  width: 112px;
+}
+@media only screen and (min-width: 600px) {
+  #loading {
+    width: 192px;
+  }
+}
+#container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  margin: 0;
+  background-color: #fafafa;
+}
