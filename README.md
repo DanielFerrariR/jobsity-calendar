@@ -17,6 +17,7 @@
 - [Tests](#tests)
 - [CI Configuration](#ci-configuration)
 - [Deploy](#deploy)
+- [Links](#links)
 
 ## Workspace
 
@@ -188,3 +189,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
 ```
+
+## Links
+
+[Codcov](https://codecov.io/gh/DanielFerrariR/jobsity-calendar/branch/master)
