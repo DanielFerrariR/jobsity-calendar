@@ -177,7 +177,7 @@ $ yarn report:combined
 
 1. First, be sure you did everything from the configuration section (steps 1 to 4 are the most important ones).
 2. 'yarn build' command will compile all files and put them into dist folder.
-3. Install Apache. (I'm using XAMPP for this example. Link: <https://www.apachefriends.org/download.html>)
+3. Install Apache. (I'm using XAMPP for this example. Link: [Apache](https://www.apachefriends.org/download.html))
 4. Clean up htdocs folder of xampp/htdocs.
 5. Put all files from dist folder into xampp/htdocs folder.
 6. Open XAMPP and, on the line of module apache, click on the 'Start' button.
