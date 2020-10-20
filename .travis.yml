@@ -6,12 +6,15 @@ addons:
       - libgconf-2-4
 cache:
   directories:
-    - ~/.yarn
-    - ~/.cache
+    - ~/.cache/yarn
+    - ~/.cache/Cypress
 notifications:
   email: false
 node_js: '12'
-install: yarn install
+install:
+  - yarn install --frozen-lockfile
+  - yarn cypress install
+  - yarn cypress verify
 script: yarn run validate
 branches:
   only: master
