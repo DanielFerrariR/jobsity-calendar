@@ -77,7 +77,7 @@ yarn dev
 npx cypress install
 ```
 
-6. **If Cypress download is corrupted, is because Cypress binary installation is currently bugged and doesn't allow two versions of Cypress on yarn.lock. The @testing-library/cypress is getting the last cypress version available and putting it on yarn.lock, then, if you update Cypress, it adds another cypress version to yarn.lock and the binary installation gets confused. To temporary fix the issue, delete yarn.lock and run yarn again. Check if the issue got fixed on the link below, if it got fixed, please delete this step**
+6. **If Cypress download is corrupted, is because Cypress binary installation is currently bugged and doesn't allow two versions of Cypress on yarn.lock. The @testing-library/cypress is getting the last cypress version available and putting it on yarn.lock, then, if you update Cypress, it adds another cypress version to yarn.lock and the binary installation gets confused. To temporary fix the issue, delete yarn.lock and run yarn again. Check if the issue got fixed on the link below.**
 
 <https://github.com/cypress-io/cypress/issues/4595>
 
@@ -195,3 +195,4 @@ RewriteRule . /index.html [L]
 ## Links
 
 [Codcov](https://codecov.io/gh/DanielFerrariR/jobsity-calendar/branch/master)
+[Website](https://5f8f07a72abdb00008ed1822--angry-meitner-775e94.netlify.app)
