@@ -13,11 +13,11 @@
 #loading {
   animation: fadeAnimation 2s linear infinite;
   opacity: 0;
-  width: 112px;
+  width: 72px;
 }
 @media only screen and (min-width: 600px) {
   #loading {
-    width: 192px;
+    width: 142px;
   }
 }
 #container {

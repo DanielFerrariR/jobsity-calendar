@@ -37,7 +37,6 @@ const TextField: React.FC<TextFieldProps> = (props) => {
   return (
     <StyledTextField
       InputLabelProps={{
-        shrink: true,
         ['data-testid' as any]: dataTestId ? `${dataTestId}-label` : undefined,
         ...InputLabelProps
       }}

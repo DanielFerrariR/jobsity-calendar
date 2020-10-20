@@ -4,10 +4,10 @@ import {
   useSelector as useReduxSelector,
   TypedUseSelectorHook
 } from 'react-redux'
-import { feedReducer } from './feed'
+import { remindersReducer } from './reminders'
 
 const appReducer = combineReducers({
-  feed: feedReducer
+  reminders: remindersReducer
 })
 
 export const rootReducer: typeof appReducer = (state, action) => {

@@ -103,32 +103,6 @@ const theme = createMuiTheme({
     snackbar: 1400,
     tooltip: 1500
   },
-  props: {
-    MuiButton: {
-      color: 'primary',
-      variant: 'contained'
-    },
-    MuiTextField: {
-      variant: 'outlined',
-      autoComplete: 'off'
-    },
-    MuiTypography: {
-      variantMapping: {
-        h1: 'h1',
-        h2: 'h2',
-        h3: 'h3',
-        h4: 'h4',
-        h5: 'h5',
-        h6: 'h6',
-        subtitle1: 'p',
-        subtitle2: 'p',
-        body1: 'p',
-        body2: 'p',
-        caption: 'p',
-        overline: 'p'
-      }
-    }
-  },
   typography: {
     htmlFontSize: 16,
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
@@ -139,14 +113,14 @@ const theme = createMuiTheme({
     fontWeightBold: 700,
     h1: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 400,
+      fontWeight: 300,
       fontSize: '6rem',
       lineHeight: 1.167,
       letterSpacing: '-0.01562em'
     },
     h2: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 400,
+      fontWeight: 300,
       fontSize: '3.75rem',
       lineHeight: 1.2,
       letterSpacing: '-0.00833em'
@@ -174,7 +148,7 @@ const theme = createMuiTheme({
     },
     h6: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 400,
+      fontWeight: 500,
       fontSize: '1.25rem',
       lineHeight: 1.6,
       letterSpacing: '0.0075em'
@@ -188,7 +162,7 @@ const theme = createMuiTheme({
     },
     subtitle2: {
       fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-      fontWeight: 400,
+      fontWeight: 500,
       fontSize: '0.875rem',
       lineHeight: 1.57,
       letterSpacing: '0.00714em'
@@ -229,13 +203,6 @@ const theme = createMuiTheme({
       lineHeight: 2.66,
       letterSpacing: '0.08333em',
       textTransform: 'uppercase'
-    }
-  },
-  overrides: {
-    MuiCssBaseline: {
-      '@global': {
-        ...require('./keyframes')
-      }
     }
   }
 })
