@@ -1,1 +1,1 @@
-process.env.API_ADDRESS = 'http://sso:3000'
+process.env.WEATHER_API_KEY = 'dasdad1d131f13sdsad'

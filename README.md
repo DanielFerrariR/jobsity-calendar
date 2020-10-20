@@ -1,30 +1,13 @@
-<p align="center">
-    <img alt="Passmonki" src="./src/images/logo.svg" width="60" />
-</p>
 <h1 align="center">
-  Passmonki Client v2
+  Jobsity Calendar
 </h1>
 
-<h3 align="center">
-  :monkey_face:
-  :closed_lock_with_key:
-  :key:
-  ⚛️ 📄 🚀
-</h3>
-<p align="center">
-  Passmonki Client implementation for web and native platforms.
-</p>
-
-<a align="center" href="https://app.buddy.works/autoseg/passmonki-client-v2/pipelines/pipeline/253825">
-  <img src="https://app.buddy.works/autoseg/passmonki-client-v2/pipelines/pipeline/253825/badge.svg?token=5e8a0a3c76af74ad582f44a1283607494ddb940557fb8ada1e1e5bed4cf2fb8f" />
-</a>
-
-<a align="center" href="https://app.buddy.works/autoseg/passmonki-client-v2/pipelines/pipeline/265610">
-  <img src="https://app.buddy.works/autoseg/passmonki-client-v2/pipelines/pipeline/265610/badge.svg?token=5e8a0a3c76af74ad582f44a1283607494ddb940557fb8ada1e1e5bed4cf2fb8f" />
-</a>
-
 <a align="center" href="./CHANGELOG.md">
-  <img src="https://img.shields.io/badge/version-0.2.0-blue" />
+  <img src="https://img.shields.io/badge/version-1.0.0-blue" />
+</a>
+
+<a align="center" href="https://travis-ci.com/github/DanielFerrariR/jobsity-calendar">
+  <img src="https://travis-ci.com/DanielFerrariR/jobsity-calendar.svg?branch=master" />
 </a>
 
 ## TOC
@@ -70,13 +53,13 @@
 2. **Create a .env file with the required variables:**
 
 ```sh
-API_ADDRESS=http://localhost:3005/sso/client/v2
+WEATHER_API_KEY=
 ```
 
-3. **Put CI server address on spec/jest/config/set_env_vars.js for checking snapshots on CI:**
+3. **Put .env files variables on spec/jest/config/set_env_vars.js for mocking the variables on the snapshots on CI:**
 
 ```sh
-process.env.API_ADDRESS = 'http://sso:3000'
+process.env.WEATHER_API_KEY = ''
 ```
 
 4. **Install all dependencies with yarn (not npm!!)**
@@ -100,10 +83,6 @@ npx cypress install
 7. **If Cypress download is corrupted, is because Cypress binary installation is currently bugged and doesn't allow two versions of Cypress on yarn.lock. The @testing-library/cypress is getting the last cypress version available and putting it on yarn.lock, then, if you update Cypress, it adds another cypress version to yarn.lock and the binary installation gets confused. To temporary fix the issue, delete yarn.lock and run yarn again. Check if the issue got fixed on the link below, if it got fixed, please delete this step**
 
 <https://github.com/cypress-io/cypress/issues/4595>
-
-8. **Attention! We are using service worker on production (yarn build), so, if you opened the page on production, you need to clean the service worker before testing (yarn test and yarn test:e2e) and using the development mode (yarn dev)**
-
-DevTools > Application > Clean Storage > Refresh The Page
 
 9. **Commands**
 
@@ -146,33 +125,6 @@ $ yarn check-types
 # CI validation command
 $ yarn setup
 
-# Runs for electron (it builds web files and use them)
-$ yarn electron:run
-
-# Runs with electron (it runs web dev server and use it)
-$ yarn electron:dev
-
-# Builds with electron for windows (target: nsis)
-$ yarn pack:windows
-
-# Builds with electron for linux (target: deb)
-$ yarn pack:linux
-
-# Builds with electron for mac (target: pkg)
-$ yarn pack:mac
-
-# Builds with electron for windows and publish at github (target: nsis)
-# Needs GH_TOKEN with repo permissions on electron-builder.env file (if it not exists, create one)
-$ yarn publish:windows
-
-# Builds with electron for linux and publish at github (target: deb)
-# Needs GH_TOKEN with repo permissions on electron-builder.env file (if it not exists, create one)
-$ yarn publish:linux
-
-# Builds with electron for mac and publish at github (target: pkg)
-# Needs GH_TOKEN with repo permissions on electron-builder.env file (if it not exists, create one)
-$ yarn publish:mac
-
 # Storybook
 $ yarn storybook
 
@@ -190,9 +142,9 @@ $ yarn commit
 
 ## CI configuration
 
-- Set the environment variable API_ADDRESS (in the CI environment variable section) with the server address.
+- Set the environment variables in the CI environment variable section.
 - The only command needed to be put on CI is 'yarn setup' which tests formatting with prettier, eslint errors, typescript errors and all tests.
-- You need chrome installed on CI for cypress (we are using cypress/browsers 12.16.1 docker image which comes with chrome).
+- You need chrome installed on CI for cypress (prefer cypress/browsers 12.16.1 docker image which comes with chrome).
 - In case 'yarn setup' is too heavy for your CI. You can separate each needed script like:
 
 ```bash
@@ -224,29 +176,13 @@ $ yarn test:e2e:run
 $ yarn report:combined
 ```
 
-- You can also parallel Cypress using these commands (needs 'yarn' and 'yarn build' before each):
-
-```bash
-# Check cypress e2e/integration tests errors
-$ yarn test:e2e:run:1
-
-# Check cypress e2e/integration tests errors
-$ yarn test:e2e:run:2
-
-# Check cypress e2e/integration tests errors
-$ yarn test:e2e:run:3
-
-# Check cypress e2e/integration tests errors
-$ yarn test:e2e:run:4
-```
-
 ## Deploy
 
-1. First, be sure you did everything from the configuration section (steps 1 to 4 are the most important ones). If you want a dynamic route for your api resquests use '/sso/client/v2/' instead of 'http://localhost:3005/sso/client/v2/' that the browser automatically picks the website address.
-2. 'yarn build' command will compile all files and put them into dist/web folder.
+1. First, be sure you did everything from the configuration section (steps 1 to 4 are the most important ones).
+2. 'yarn build' command will compile all files and put them into dist folder.
 3. Install Apache. (I'm using XAMPP for this example. Link: <https://www.apachefriends.org/download.html>)
 4. Clean up htdocs folder of xampp/htdocs.
-5. Put all files from dist/web folder into xampp/htdocs folder.
+5. Put all files from dist folder into xampp/htdocs folder.
 6. Open XAMPP and, on the line of module apache, click on the 'Start' button.
 7. Access 'localhost' from your browser and see that the page loads correctly. It will still not work if you try to access a route manually (like 'localhost/login'). See below how to fix it.
 
