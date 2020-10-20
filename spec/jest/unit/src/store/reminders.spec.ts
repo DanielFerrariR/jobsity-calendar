@@ -15,8 +15,10 @@ import {
   CREATE_REMINDER,
   EDIT_REMINDER,
   DELETE_REMINDER,
-  DELETE_REMINDERS
+  DELETE_REMINDERS,
+  RemindersState
 } from 'src/store/reminders'
+import { isSameDay } from 'src/utils'
 
 jest.mock('nanoid', () => {
   return {
@@ -51,6 +53,16 @@ describe('testing reminders state', () => {
 
       store.dispatch(await createReminder(remindersData, reminderData))
 
+      let weather = null
+
+      const forecasts = WeatherForecastData.forecast.forecastday
+
+      for (const forecast of forecasts) {
+        if (isSameDay(new Date(forecast.date), reminderData.date)) {
+          weather = forecast.day.condition
+        }
+      }
+
       const actions = store.getActions() as Actions
       const expectedPayload = {
         type: CREATE_REMINDER,
@@ -58,11 +70,7 @@ describe('testing reminders state', () => {
           ...remindersData,
           {
             ...reminderData,
-            weather: {
-              code: 1063,
-              icon: '//cdn.weatherapi.com/weather/64x64/day/176.png',
-              text: 'Patchy rain possible'
-            }
+            weather
           }
         ]
       }
@@ -79,15 +87,21 @@ describe('testing reminders state', () => {
 
       store.dispatch(await editReminder(remindersData, editedReminder))
 
+      let weather: RemindersState[0]['weather'] = null
+
+      const forecasts = WeatherForecastData.forecast.forecastday
+
+      for (const forecast of forecasts) {
+        if (isSameDay(new Date(forecast.date), reminderData.date)) {
+          weather = forecast.day.condition
+        }
+      }
+
       const newReminders = remindersData.map((each) => {
         if (each.id === editedReminder.id) {
           return {
             ...editedReminder,
-            weather: {
-              code: 1063,
-              icon: '//cdn.weatherapi.com/weather/64x64/day/176.png',
-              text: 'Patchy rain possible'
-            }
+            weather
           }
         }
 
