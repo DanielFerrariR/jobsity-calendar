@@ -112,7 +112,7 @@ module.exports = {
           to: 'images'
         },
         {
-          from: path.resolve(__dirname, 'public/redirects')
+          from: path.resolve(__dirname, 'public/_redirects')
         }
       ]
     })
