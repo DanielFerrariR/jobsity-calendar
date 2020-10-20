@@ -79,7 +79,7 @@ npx cypress install
 
 6. **If Cypress download is corrupted, is because Cypress binary installation is currently bugged and doesn't allow two versions of Cypress on yarn.lock. The @testing-library/cypress is getting the last cypress version available and putting it on yarn.lock, then, if you update Cypress, it adds another cypress version to yarn.lock and the binary installation gets confused. To temporary fix the issue, delete yarn.lock and run yarn again. Check if the issue got fixed on the link below.**
 
-<https://github.com/cypress-io/cypress/issues/4595>
+[Issue 4595](https://github.com/cypress-io/cypress/issues/4595)
 
 7. **Commands**
 
