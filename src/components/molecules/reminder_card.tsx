@@ -30,7 +30,14 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
       {sortedReminders &&
         (sortedReminders.length < 3 ? (
           sortedReminders.map((each) => (
-            <Box bgcolor={each.color} mb={1} borderRadius={4} py={0.5} px={1}>
+            <Box
+              key={each.id}
+              bgcolor={each.color}
+              mb={1}
+              borderRadius={4}
+              py={0.5}
+              px={1}
+            >
               <Typography
                 variant="caption"
                 width={128}
