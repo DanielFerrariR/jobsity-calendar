@@ -1,5 +1,5 @@
 import { compose } from 'redux'
-import store from 'src/utils/redux'
+import { store } from 'src/utils/redux'
 
 declare global {
   interface Window {

@@ -98,7 +98,7 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
                       overflow: 'hidden'
                     }}
                   >
-                    {each.date.getHours()}:{each.date.getMinutes()}&nbsp;-&nbsp;
+                    {each.date.getHours()}:{each.date.getMinutes()}&nbsp;&nbsp;
                     {each.text}
                   </Box>
                 </ListItemText>

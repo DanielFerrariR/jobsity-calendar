@@ -51,26 +51,30 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
     })
   }
 
-  const handleFormSubmit = (event: React.FormEvent) => {
-    event.preventDefault()
+  const handleFormSubmit = async (event: React.FormEvent) => {
+    try {
+      event.preventDefault()
 
-    if (!form.date) {
-      return
+      if (!form.date) {
+        return
+      }
+
+      setLoading(true)
+
+      dispatch(
+        await createReminder(reminders || [], {
+          text: form.text,
+          date: form.date,
+          city: form.city,
+          color: form.color
+        })
+      )
+    } catch (error) {
+      console.error(error)
+    } finally {
+      setLoading(false)
+      setOpen(false)
     }
-
-    setLoading(true)
-
-    dispatch(
-      createReminder(reminders || [], {
-        text: form.text,
-        date: form.date,
-        city: form.city,
-        color: form.color
-      })
-    )
-
-    setLoading(false)
-    setOpen(false)
   }
 
   return (
@@ -122,8 +126,8 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
           onChange={handleChange('city')}
           required
         />
-        <Box position="relative">
-          <Button width={1} mb={3} type="submit" disabled={loading}>
+        <Box position="relative" mb={3}>
+          <Button width={1} type="submit" disabled={loading}>
             Create
           </Button>
           {loading && (

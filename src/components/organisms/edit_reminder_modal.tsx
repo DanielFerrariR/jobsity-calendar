@@ -61,31 +61,36 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
     })
   }
 
-  const handleFormSubmit = (event: React.FormEvent) => {
-    event.preventDefault()
+  const handleFormSubmit = async (event: React.FormEvent) => {
+    try {
+      event.preventDefault()
 
-    if (!reminder) {
-      return
+      if (!reminder) {
+        return
+      }
+
+      if (!form.date) {
+        return
+      }
+
+      setLoading(true)
+
+      dispatch(
+        await editReminder(reminders || [], {
+          id: reminder.id,
+          text: form.text,
+          date: form.date,
+          city: form.city,
+          color: form.color,
+          weather: reminder?.weather || null
+        })
+      )
+    } catch (error) {
+      console.log(error)
+    } finally {
+      setLoading(false)
+      setOpen(false)
     }
-
-    if (!form.date) {
-      return
-    }
-
-    setLoading(true)
-
-    dispatch(
-      editReminder(reminders || [], {
-        id: reminder.id,
-        text: form.text,
-        date: form.date,
-        city: form.city,
-        color: form.color
-      })
-    )
-
-    setLoading(false)
-    setOpen(false)
   }
 
   return (
@@ -146,8 +151,8 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
               value={form.city}
               required
             />
-            <Box position="relative">
-              <Button width={1} mb={3} type="submit" disabled={loading}>
+            <Box position="relative" mb={3}>
+              <Button width={1} type="submit" disabled={loading}>
                 Edit
               </Button>
               {loading && (

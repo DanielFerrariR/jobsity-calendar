@@ -1,6 +1,10 @@
 import configureStore from 'redux-mock-store'
 import MockAdapter from 'axios-mock-adapter'
-import { remindersData, reminderData } from 'spec/jest/fixtures'
+import {
+  remindersData,
+  reminderData,
+  WeatherForecastData
+} from 'spec/jest/fixtures'
 import { weatherAPI } from 'src/services'
 import {
   createReminder,
@@ -43,7 +47,9 @@ describe('testing reminders state', () => {
       const initialState = {}
       const store = mockStore(initialState)
 
-      store.dispatch(createReminder(remindersData, reminderData))
+      mockApi.onPost('/forecast').reply(200, WeatherForecastData)
+
+      store.dispatch(await createReminder(remindersData, reminderData))
 
       const actions = store.getActions() as Actions
       const expectedPayload = {
@@ -59,7 +65,9 @@ describe('testing reminders state', () => {
       const store = mockStore(initialState)
       const editedReminder = { ...remindersData[0], text: 'edited' }
 
-      store.dispatch(editReminder(remindersData, editedReminder))
+      mockApi.onPost('/forecast').reply(200, WeatherForecastData)
+
+      store.dispatch(await editReminder(remindersData, editedReminder))
 
       const newReminders = remindersData.map((each) => {
         if (each.id === editedReminder.id) {
@@ -78,7 +86,7 @@ describe('testing reminders state', () => {
       expect(actions).toStrictEqual([expectedPayload])
     })
 
-    it('should deleteReminder action works correctly', async () => {
+    it('should deleteReminder action works correctly', () => {
       const initialState = {}
       const store = mockStore(initialState)
       const id = 'UTdGirEgNgkwpqjt2Ancm'
@@ -96,7 +104,7 @@ describe('testing reminders state', () => {
       expect(actions).toStrictEqual([expectedPayload])
     })
 
-    it('should deleteReminders action works correctly', async () => {
+    it('should deleteReminders action works correctly', () => {
       const initialState = {}
       const store = mockStore(initialState)
 

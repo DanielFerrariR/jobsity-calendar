@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Typography } from 'src/components/atoms'
+import { Box, Typography, Image } from 'src/components/atoms'
 import { useSelector } from 'src/store'
 import { isSameDay } from 'src/utils'
 import { getContrastRatio } from '@material-ui/core'
@@ -35,8 +35,10 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
               bgcolor={each.color}
               mb={1}
               borderRadius={4}
-              py={0.5}
               px={1}
+              display="flex"
+              alignItems="center"
+              height={32}
             >
               <Typography
                 variant="caption"
@@ -51,6 +53,9 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
               >
                 {each.text}
               </Typography>
+              {each.weather && (
+                <Image src={each.weather.icon} height={24} width={24} />
+              )}
             </Box>
           ))
         ) : (
@@ -59,8 +64,10 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
               bgcolor={sortedReminders[0].color}
               mb={1}
               borderRadius={4}
-              py={0.5}
               px={1}
+              display="flex"
+              alignItems="center"
+              height={32}
             >
               <Typography
                 variant="caption"
@@ -77,6 +84,13 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
               >
                 {sortedReminders[0].text}
               </Typography>
+              {sortedReminders[0].weather && (
+                <Image
+                  src={sortedReminders[0].weather.icon}
+                  height={24}
+                  width={24}
+                />
+              )}
             </Box>
             <Typography variant="caption">
               + {sortedReminders?.length - 1} more

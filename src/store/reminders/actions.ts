@@ -1,4 +1,6 @@
+import { weatherAPI } from 'src/services'
 import { nanoid } from 'nanoid'
+import { isSameDay } from 'src/utils'
 import {
   RemindersState,
   CreateReminderData,
@@ -9,20 +11,41 @@ import {
   CreateReminderAction,
   EditReminderAction,
   DeleteReminderAction,
-  DeleteRemindersAction
+  DeleteRemindersAction,
+  WeatherForecastResponse
 } from './types'
 
-const createReminder = (
+const createReminder = async (
   reminders: RemindersState,
   data: CreateReminderData
-): CreateReminderAction => {
+): Promise<CreateReminderAction> => {
   const newReminders = [...reminders]
+
+  const response = await weatherAPI
+    .get<WeatherForecastResponse>(
+      `/forecast.json?key=${process.env.WEATHER_API_KEY}&q=${data.city}&days=10`
+    )
+    .catch(() => {})
+
+  let weather = null
+
+  if (response) {
+    const forecasts = response.data.forecast.forecastday
+
+    for (const forecast of forecasts) {
+      if (isSameDay(new Date(forecast.date), data.date)) {
+        weather = forecast.day.condition
+      }
+    }
+  }
+
   const newReminder = {
     id: nanoid(),
     text: data.text,
     date: data.date,
     city: data.city,
-    color: data.color
+    color: data.color,
+    weather
   }
 
   newReminders.push(newReminder)
@@ -33,13 +56,31 @@ const createReminder = (
   }
 }
 
-const editReminder = (
+const editReminder = async (
   reminders: RemindersState,
   data: RemindersState[0]
-): EditReminderAction => {
+): Promise<EditReminderAction> => {
+  const response = await weatherAPI
+    .get<WeatherForecastResponse>(
+      `/forecast.json?key=${process.env.WEATHER_API_KEY}&q=${data.city}&days=10`
+    )
+    .catch(() => {})
+
+  let weather: RemindersState[0]['weather'] = null
+
+  if (response) {
+    const forecasts = response.data.forecast.forecastday
+
+    for (const forecast of forecasts) {
+      if (isSameDay(new Date(forecast.date), data.date)) {
+        weather = forecast.day.condition
+      }
+    }
+  }
+
   const newReminders = reminders.map((each) => {
     if (each.id === data.id) {
-      return data
+      return { ...data, weather }
     }
 
     return each
