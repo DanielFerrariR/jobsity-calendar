@@ -100,12 +100,14 @@ describe('testing reminders state', () => {
       const initialState = {}
       const store = mockStore(initialState)
 
-      store.dispatch(deleteReminders(remindersData, remindersData))
+      store.dispatch(
+        deleteReminders([...remindersData, reminderData], remindersData)
+      )
 
       const actions = store.getActions() as Actions
       const expectedPayload = {
         type: DELETE_REMINDERS,
-        payload: []
+        payload: [reminderData]
       }
 
       expect(actions).toStrictEqual([expectedPayload])
