@@ -1,0 +1,1395 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Atoms/Button simple button 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Button
+    </span>
+  </button>,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Button
+    </span>
+  </button>,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Button
+    </span>
+  </button>,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Button
+    </span>
+  </button>,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Button
+    </span>
+  </button>,
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Button
+    </span>
+  </button>,
+]
+`;
+
+exports[`Storyshots Components/Atoms/List list 1`] = `
+<ul
+  className="MuiList-root Component-root Component-root MuiList-padding"
+>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-0"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-1"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-2"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-3"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-4"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-5"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-6"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-7"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-8"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="MuiListItem-container"
+  >
+    <div
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root Component-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemText-root WithStyles(ForwardRef(ListItemText))-root WithStyles(ForwardRef(ListItemText))-root"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+        >
+          Nome
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      className="MuiListItemSecondaryAction-root WithStyles(ForwardRef(ListItemSecondaryAction))-root"
+    >
+      <div
+        className="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <label
+          className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+          htmlFor="checkbox-9"
+        >
+          Administrator
+        </label>
+        <button
+          aria-describedby={null}
+          aria-label="delete"
+          className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+          disabled={false}
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseOver={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          title="Delete"
+          type="button"
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
+
+exports[`Storyshots Components/atoms/Box box 1`] = `
+<div
+  className="MuiBox-root MuiBox-root Component-root Component-root"
+/>
+`;
+
+exports[`Storyshots Components/atoms/CircularProgress circular progress 1`] = `
+<div
+  className="MuiCircularProgress-root WithStyles(ForwardRef(CircularProgress))-root WithStyles(ForwardRef(CircularProgress))-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={Object {}}
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Components/atoms/Container container 1`] = `
+<div
+  className="MuiContainer-root Component-root Component-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root Component-root Component-root"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/atoms/Grid grid 1`] = `
+<div
+  className="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-container MuiGrid-spacing-xs-2"
+>
+  <div
+    className="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Button
+      </span>
+    </button>
+  </div>
+  <div
+    className="MuiGrid-root WithStyles(ForwardRef(Grid))-root WithStyles(ForwardRef(Grid))-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedSecondary"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Button
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/atoms/IconButton icon button 1`] = `
+<button
+  aria-label="Search"
+  className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiIconButton-label"
+  >
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+      />
+    </svg>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/atoms/Paper paper 1`] = `
+<div
+  className="MuiPaper-root Component-root Component-root MuiPaper-elevation1 MuiPaper-rounded"
+/>
+`;
+
+exports[`Storyshots Components/atoms/Text Field text field 1`] = `
+Array [
+  <div
+    className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+      data-shrink={false}
+      htmlFor="input"
+      id="input-label"
+    >
+      Label name
+    </label>
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+      onClick={[Function]}
+    >
+      <input
+        aria-invalid={false}
+        autoComplete="off"
+        autoFocus={false}
+        className="MuiInputBase-input MuiOutlinedInput-input"
+        disabled={false}
+        id="input"
+        maxLength={100}
+        onAnimationStart={[Function]}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        required={false}
+        type="text"
+      />
+      <fieldset
+        aria-hidden={true}
+        className="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="PrivateNotchedOutline-legendLabelled"
+        >
+          <span>
+            Label name
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>,
+  <div
+    className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+  >
+    <label
+      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
+      data-shrink={true}
+      htmlFor="select-input"
+      id="select-input-label"
+    >
+      Label name
+    </label>
+    <div
+      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+      onClick={[Function]}
+    >
+      <div
+        aria-haspopup="listbox"
+        aria-labelledby="select-input-label select-input"
+        className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
+        id="select-input"
+        onBlur={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        Option 1
+      </div>
+      <input
+        aria-hidden={true}
+        autoComplete="off"
+        autoFocus={false}
+        className="MuiSelect-nativeInput"
+        maxLength={100}
+        onAnimationStart={[Function]}
+        onChange={[Function]}
+        required={false}
+        tabIndex={-1}
+        value={1}
+      />
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+      <fieldset
+        aria-hidden={true}
+        className="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          className="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
+        >
+          <span>
+            Label name
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/atoms/Tooltip paper 1`] = `
+<button
+  aria-describedby={null}
+  className="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseOver={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  title="Search"
+  type="button"
+>
+  <span
+    className="MuiIconButton-label"
+  >
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+      />
+    </svg>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/atoms/Typography typography 1`] = `
+<div
+  className="MuiBox-root MuiBox-root Component-root Component-root"
+>
+  <h1
+    className="MuiTypography-root Component-root Component-root MuiTypography-h1"
+  >
+    h1
+  </h1>
+  <h2
+    className="MuiTypography-root Component-root Component-root MuiTypography-h2"
+  >
+    h2
+  </h2>
+  <h3
+    className="MuiTypography-root Component-root Component-root MuiTypography-h3"
+  >
+    h3
+  </h3>
+  <h4
+    className="MuiTypography-root Component-root Component-root MuiTypography-h4"
+  >
+    h4
+  </h4>
+  <h5
+    className="MuiTypography-root Component-root Component-root MuiTypography-h5"
+  >
+    h5
+  </h5>
+  <h6
+    className="MuiTypography-root Component-root Component-root MuiTypography-h6"
+  >
+    h6
+  </h6>
+  <p
+    className="MuiTypography-root Component-root Component-root MuiTypography-subtitle1"
+  >
+    subtitle1
+  </p>
+  <p
+    className="MuiTypography-root Component-root Component-root MuiTypography-subtitle2"
+  >
+    subtitle2
+  </p>
+  <p
+    className="MuiTypography-root Component-root Component-root MuiTypography-body1"
+  >
+    body1
+  </p>
+  <p
+    className="MuiTypography-root Component-root Component-root MuiTypography-body2"
+  >
+    body2
+  </p>
+  <span
+    className="MuiTypography-root Component-root Component-root MuiTypography-button"
+  >
+    button
+  </span>
+  <p
+    className="MuiTypography-root Component-root Component-root MuiTypography-caption"
+  >
+    caption
+  </p>
+  <p
+    className="MuiTypography-root Component-root Component-root MuiTypography-overline"
+  >
+    overline
+  </p>
+</div>
+`;

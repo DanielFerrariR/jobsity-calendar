@@ -5,7 +5,6 @@ import {
   ListItemText,
   Typography,
   Box,
-  Checkbox,
   Tooltip,
   IconButton
 } from 'src/components/atoms'
@@ -55,17 +54,14 @@ We also use the following additional props from [@material-ui/system/basics](htt
           <ListItemText color="text.primary">Nome</ListItemText>
           <ListItemSecondaryAction>
             <Box display="flex" alignItems="center">
-              <Box display="flex" alignItems="center">
-                <Checkbox id={`checkbox-${index}`} />
-                <Typography
-                  color="text.primary"
-                  component="label"
-                  htmlFor={`checkbox-${index}`}
-                  css={{ cursor: 'pointer' }}
-                >
-                  Administrator
-                </Typography>
-              </Box>
+              <Typography
+                color="text.primary"
+                component="label"
+                htmlFor={`checkbox-${index}`}
+                css={{ cursor: 'pointer' }}
+              >
+                Administrator
+              </Typography>
               <Tooltip title="Delete">
                 <IconButton aria-label="delete">
                   <Delete />
