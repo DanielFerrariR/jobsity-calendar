@@ -47,14 +47,24 @@ describe('testing reminders state', () => {
       const initialState = {}
       const store = mockStore(initialState)
 
-      mockApi.onPost('/forecast').reply(200, WeatherForecastData)
+      mockApi.onGet(/\/forecast/).reply(200, WeatherForecastData)
 
       store.dispatch(await createReminder(remindersData, reminderData))
 
       const actions = store.getActions() as Actions
       const expectedPayload = {
         type: CREATE_REMINDER,
-        payload: [...remindersData, reminderData]
+        payload: [
+          ...remindersData,
+          {
+            ...reminderData,
+            weather: {
+              code: 1063,
+              icon: '//cdn.weatherapi.com/weather/64x64/day/176.png',
+              text: 'Patchy rain possible'
+            }
+          }
+        ]
       }
 
       expect(actions).toStrictEqual([expectedPayload])
@@ -65,13 +75,20 @@ describe('testing reminders state', () => {
       const store = mockStore(initialState)
       const editedReminder = { ...remindersData[0], text: 'edited' }
 
-      mockApi.onPost('/forecast').reply(200, WeatherForecastData)
+      mockApi.onGet(/\/forecast/).reply(200, WeatherForecastData)
 
       store.dispatch(await editReminder(remindersData, editedReminder))
 
       const newReminders = remindersData.map((each) => {
         if (each.id === editedReminder.id) {
-          return editedReminder
+          return {
+            ...editedReminder,
+            weather: {
+              code: 1063,
+              icon: '//cdn.weatherapi.com/weather/64x64/day/176.png',
+              text: 'Patchy rain possible'
+            }
+          }
         }
 
         return each
