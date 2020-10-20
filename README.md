@@ -56,35 +56,29 @@
 WEATHER_API_KEY=
 ```
 
-3. **Put .env files variables on spec/jest/config/set_env_vars.js for mocking the variables on the snapshots on CI:**
-
-```sh
-process.env.WEATHER_API_KEY = ''
-```
-
-4. **Install all dependencies with yarn (not npm!!)**
+3. **Install all dependencies with yarn (not npm!!)**
 
 ```sh
 yarn
 ```
 
-5. **Start the webpack-dev-server**
+4. **Start the webpack-dev-server**
 
 ```sh
 yarn dev
 ```
 
-6. **If Cypress (yarn test:e2e) is still not installed after yarn. Install cypress with:**
+5. **If Cypress (yarn test:e2e) is still not installed after yarn. Install cypress with:**
 
 ```sh
 npx cypress install
 ```
 
-7. **If Cypress download is corrupted, is because Cypress binary installation is currently bugged and doesn't allow two versions of Cypress on yarn.lock. The @testing-library/cypress is getting the last cypress version available and putting it on yarn.lock, then, if you update Cypress, it adds another cypress version to yarn.lock and the binary installation gets confused. To temporary fix the issue, delete yarn.lock and run yarn again. Check if the issue got fixed on the link below, if it got fixed, please delete this step**
+6. **If Cypress download is corrupted, is because Cypress binary installation is currently bugged and doesn't allow two versions of Cypress on yarn.lock. The @testing-library/cypress is getting the last cypress version available and putting it on yarn.lock, then, if you update Cypress, it adds another cypress version to yarn.lock and the binary installation gets confused. To temporary fix the issue, delete yarn.lock and run yarn again. Check if the issue got fixed on the link below, if it got fixed, please delete this step**
 
 <https://github.com/cypress-io/cypress/issues/4595>
 
-9. **Commands**
+7. **Commands**
 
 ```bash
 # Installs all dependendies

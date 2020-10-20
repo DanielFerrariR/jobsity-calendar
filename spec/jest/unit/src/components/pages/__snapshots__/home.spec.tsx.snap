@@ -1,0 +1,605 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Home component should snapshot works 1`] = `
+<div>
+  <div
+    class="MuiContainer-root Component-root Component-root MuiContainer-maxWidthLg"
+  >
+    <div
+      class="MuiPaper-root Component-root Component-root MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiBox-root MuiBox-root Component-root Component-root"
+      >
+        <div
+          class="MuiBox-root MuiBox-root Component-root Component-root"
+        >
+          <div
+            class="MuiBox-root MuiBox-root Component-root Component-root"
+          >
+            <button
+              aria-label="Back"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              tabindex="0"
+              title="Back"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  style="transform: rotate(180deg);"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              aria-label="Forward"
+              class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              tabindex="0"
+              title="Forward"
+              type="button"
+            >
+              <span
+                class="MuiIconButton-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M5.88 4.12L13.76 12l-7.88 7.88L8 22l10-10L8 2z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <button
+              class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiButton-label"
+              >
+                Today
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Create reminder
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <h6
+          class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+        >
+          October
+           
+          2020
+        </h6>
+      </div>
+      <div
+        class="MuiTableContainer-root"
+      >
+        <table
+          class="MuiTable-root"
+          style="min-width: 1200px;"
+        >
+          <thead
+            class="MuiTableHead-root WithStyles(ForwardRef(TableHead))-root WithStyles(ForwardRef(TableHead))-root"
+          >
+            <tr
+              class="MuiTableRow-root MuiTableRow-head"
+            >
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Sunday
+                </p>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Monday
+                </p>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Tuesday
+                </p>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Wednesday
+                </p>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Thursday
+                </p>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Friday
+                </p>
+              </th>
+              <th
+                class="MuiTableCell-root MuiTableCell-head"
+                scope="col"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  Saturday
+                </p>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="MuiTableBody-root WithStyles(ForwardRef(TableBody))-root WithStyles(ForwardRef(TableBody))-root"
+          >
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  27
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  28
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  29
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  30
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  1
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  2
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  3
+                </p>
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  4
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  5
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  6
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  7
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  8
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  9
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  10
+                </p>
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  11
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  12
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  13
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  14
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  15
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  16
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  17
+                </p>
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  18
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  19
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  20
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  21
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  22
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  23
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  24
+                </p>
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  25
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  26
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  27
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  28
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  29
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  30
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  31
+                </p>
+              </td>
+            </tr>
+            <tr
+              class="MuiTableRow-root"
+            >
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  1
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  2
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  3
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  4
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  5
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  6
+                </p>
+              </td>
+              <td
+                class="MuiTableCell-root MuiTableCell-body"
+              >
+                <p
+                  class="MuiTypography-root Component-root Component-root MuiTypography-body1"
+                >
+                  7
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;

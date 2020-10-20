@@ -4,7 +4,4 @@ import './commands'
 import 'cypress-file-upload'
 import 'cypress-fill-command'
 
-beforeEach(() => {
-  cy.destroyDatabases()
-  cy.offline(false)
-})
+beforeEach(() => {})
