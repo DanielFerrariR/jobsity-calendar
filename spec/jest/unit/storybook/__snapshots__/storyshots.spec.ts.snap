@@ -1161,6 +1161,14 @@ exports[`Storyshots Components/atoms/IconButton icon button 1`] = `
 </button>
 `;
 
+exports[`Storyshots Components/atoms/Image image 1`] = `
+<img
+  alt="Logo"
+  className="img-root img-root"
+  src=""
+/>
+`;
+
 exports[`Storyshots Components/atoms/Paper paper 1`] = `
 <div
   className="MuiPaper-root Component-root Component-root MuiPaper-elevation1 MuiPaper-rounded"
