@@ -1,4 +1,4 @@
-import { TextField, MenuItem } from 'src/components/atoms'
+import { TextField } from 'src/components/atoms'
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks'
 
 <Meta title="Components/atoms/Text Field" component={TextField} />
@@ -25,18 +25,6 @@ We also use the following additional props from [@material-ui/system/basics](htt
         variant="outlined"
         mr={2}
       />
-      <TextField
-        label="Label name"
-        id="select-input"
-        InputLabelProps={{ htmlFor: 'select-input' }}
-        variant="outlined"
-        select
-        value={1}
-      >
-        <MenuItem value={1}>Option 1</MenuItem>
-        <MenuItem>Option 2</MenuItem>
-        <MenuItem>Option 3</MenuItem>
-      </TextField>
     </>
   </Story>
 </Preview>
