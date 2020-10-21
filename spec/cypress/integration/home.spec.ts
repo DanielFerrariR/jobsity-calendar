@@ -148,7 +148,7 @@ describe('testing home page', () => {
         'not.exist'
       )
 
-      cy.findByTestId('list-reminders-icon-button-close').click()
+      cy.findByTestId('list-reminders-button-close').click()
 
       cy.findByTestId('reminder-card-current-20-0').should('not.exist')
     })
@@ -188,7 +188,7 @@ describe('testing home page', () => {
           'not.exist'
         )
 
-        cy.findByTestId('list-reminders-icon-button-close').click()
+        cy.findByTestId('list-reminders-button-close').click()
 
         cy.findByTestId('reminder-card-current-20-0').should('not.exist')
         cy.findByTestId('reminder-card-current-20-1').should('not.exist')
