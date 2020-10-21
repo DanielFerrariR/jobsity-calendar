@@ -81,9 +81,14 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
           {sortedReminders &&
             sortedReminders.map((each, count) => {
               let hours: string | number = each.date.getHours()
+              let minutes: string | number = each.date.getMinutes()
 
               if (hours < 10) {
                 hours = `0${hours}`
+              }
+
+              if (minutes < 10) {
+                minutes = `0${minutes}`
               }
 
               return (
@@ -110,7 +115,7 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
                         mr={1}
                         data-testid={`list-reminders-typography-list-item-hour-${count}`}
                       >
-                        {hours}:{each.date.getMinutes()}
+                        {hours}:{minutes}
                       </Typography>
                       <Typography
                         data-testid={`list-reminders-typography-list-item-text-${count}`}
