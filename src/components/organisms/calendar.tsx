@@ -94,6 +94,7 @@ const Calendar: React.FC = () => {
         const newMonth = month > 0 ? month - 1 : 11
         const newYear = month > 0 ? year : year - 1
         const newDate = new Date(newYear, newMonth, newDay)
+
         bodyLine.push(
           <TableCell
             key={count}
