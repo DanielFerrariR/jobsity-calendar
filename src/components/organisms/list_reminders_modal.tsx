@@ -150,7 +150,7 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
         <Button
           width={1}
           onClick={() => setOpen(false)}
-          data-testid="list-reminders-icon-button-close"
+          data-testid="list-reminders-button-close"
         >
           Close
         </Button>

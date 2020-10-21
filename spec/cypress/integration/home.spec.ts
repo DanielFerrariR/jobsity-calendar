@@ -12,6 +12,72 @@ describe('testing home page', () => {
     })
   })
 
+  it('go to the previous month', () => {
+    cy.findByTestId('calendar-typography-date').contains(/October 2020/)
+
+    cy.findByTestId('calendar-button-back').click()
+
+    cy.findByTestId('calendar-typography-date').contains(/September 2020/)
+  })
+
+  it('go to the next month', () => {
+    cy.findByTestId('calendar-typography-date').contains(/October 2020/)
+
+    cy.findByTestId('calendar-button-forward').click()
+
+    cy.findByTestId('calendar-typography-date').contains(/November 2020/)
+  })
+
+  it('go to the current month', () => {
+    cy.findByTestId('calendar-typography-date').contains(/October 2020/)
+
+    cy.findByTestId('calendar-button-back').click()
+
+    cy.findByTestId('calendar-button-back').click()
+
+    cy.findByTestId('calendar-button-back').click()
+
+    cy.findByTestId('calendar-button-set-today').click()
+
+    cy.findByTestId('calendar-typography-date').contains(/October 2020/)
+  })
+
+  it('open previous and next month days reminder list', () => {
+    cy.findByTestId('calendar-past-30').click()
+
+    cy.findByTestId('modal').should('exist')
+
+    cy.findByTestId('list-reminders-button-close').click()
+
+    // eslint-disable-next-line cypress/no-unnecessary-waiting
+    cy.wait(1000)
+
+    cy.findByTestId('modal').should('not.exist')
+
+    cy.findByTestId('calendar-future-1').click()
+
+    cy.findByTestId('modal').should('exist')
+
+    cy.findByTestId('list-reminders-button-close').click()
+
+    // eslint-disable-next-line cypress/no-unnecessary-waiting
+    cy.wait(1000)
+
+    cy.findByTestId('modal').should('not.exist')
+  })
+
+  it('should show the first reminder and a text with the current reminder count when are more than 3 reminders on a date', () => {
+    cy.createReminder().then(() => {
+      cy.createReminder().then(() => {
+        cy.createReminder().then(() => {
+          cy.createReminder().then(() => {
+            cy.findByTestId('reminder-card-current-20-extra').contains(/3 more/)
+          })
+        })
+      })
+    })
+  })
+
   it('should create a reminder', () => {
     cy.createReminder().then(() => {
       cy.findByTestId('reminder-card-current-20-0').contains(/Remember this/)
