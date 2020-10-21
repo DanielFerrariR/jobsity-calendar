@@ -28,9 +28,6 @@ const TextField: React.FC<TextFieldProps> = (props) => {
     InputLabelProps,
     inputProps,
     'data-testid': dataTestId,
-    select,
-    SelectProps,
-    disabled,
     ...rest
   } = props
 
@@ -42,23 +39,14 @@ const TextField: React.FC<TextFieldProps> = (props) => {
       }}
       inputProps={{
         maxLength: 100,
-        'data-testid': !select ? dataTestId : undefined,
+        'data-testid': dataTestId,
         ...inputProps
-      }}
-      SelectProps={{
-        SelectDisplayProps: {
-          ['data-testid' as any]: select ? dataTestId : undefined,
-          'aria-disabled': disabled
-        },
-        ...SelectProps
       }}
       FormHelperTextProps={{
         ['data-testid' as any]: dataTestId
           ? `${dataTestId}-helper-text`
           : undefined
       }}
-      disabled={disabled}
-      select={select}
       {...rest}
     />
   )

@@ -229,7 +229,7 @@ describe('testing home page', () => {
       cy.findByTestId('calendar-button-create-reminder').click()
 
       cy.findByTestId('create-reminder-textfield-text').fill('test2')
-      cy.findByTestId('create-reminder-textfield-date').fill('2020/10/20 07:40')
+      cy.findByTestId('create-reminder-textfield-date').fill('2020/10/20 12:40')
       cy.findByTestId('create-reminder-textfield-city').fill('Sao Paulo')
 
       cy.findByTestId('create-reminder-button-submit').click()
@@ -237,19 +237,33 @@ describe('testing home page', () => {
       cy.findByTestId('reminder-card-current-20-0').contains(/test2/)
       cy.findByTestId('reminder-card-current-20-1').contains(/test1/)
 
+      cy.findByTestId('calendar-button-create-reminder').click()
+
+      cy.findByTestId('create-reminder-textfield-text').fill('test3')
+      cy.findByTestId('create-reminder-textfield-date').fill('2020/10/20 07:40')
+      cy.findByTestId('create-reminder-textfield-city').fill('Sao Paulo')
+
+      cy.findByTestId('create-reminder-button-submit').click()
+
       cy.findByTestId('calendar-table-cell-current-20').click()
 
       cy.findByTestId('list-reminders-typography-list-item-hour-0').contains(
         /07:40/
       )
       cy.findByTestId('list-reminders-typography-list-item-text-0').contains(
-        /test2/
+        /test3/
       )
       cy.findByTestId('list-reminders-typography-list-item-hour-1').contains(
         /11:40/
       )
       cy.findByTestId('list-reminders-typography-list-item-text-1').contains(
         /test1/
+      )
+      cy.findByTestId('list-reminders-typography-list-item-hour-3').contains(
+        /12:40/
+      )
+      cy.findByTestId('list-reminders-typography-list-item-text-3').contains(
+        /test2/
       )
     })
 
