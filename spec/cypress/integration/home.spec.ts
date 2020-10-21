@@ -87,6 +87,9 @@ describe('testing home page', () => {
         cy.createReminder().then(() => {
           cy.createReminder().then(() => {
             cy.createReminder().then(() => {
+              cy.findByTestId('reminder-card-current-20-0').contains(
+                /Remember this/
+              )
               cy.findByTestId('reminder-card-current-20-extra').contains(
                 /3 more/
               )
