@@ -10,7 +10,7 @@
   <img src="https://travis-ci.com/DanielFerrariR/jobsity-calendar.svg?branch=master" />
 </a>
 
-[![codecov](https://codecov.io/gh/DanielFerrariR/jobsity-calendar/branch/master/graph/badge.svg?token=4VW1RJZ44J)](undefined)
+[![codecov](https://codecov.io/gh/DanielFerrariR/jobsity-calendar/branch/master/graph/badge.svg?token=4VW1RJZ44J)](https://codecov.io/gh/DanielFerrariR/jobsity-calendar/branch/master)
 
 ## TOC
 
