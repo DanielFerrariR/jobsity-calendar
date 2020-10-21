@@ -1176,117 +1176,50 @@ exports[`Storyshots Components/atoms/Paper paper 1`] = `
 `;
 
 exports[`Storyshots Components/atoms/Text Field text field 1`] = `
-Array [
-  <div
-    className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+<div
+  className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
+    data-shrink={false}
+    htmlFor="input"
+    id="input-label"
   >
-    <label
-      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined"
-      data-shrink={false}
-      htmlFor="input"
-      id="input-label"
-    >
-      Label name
-    </label>
-    <div
-      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
-      onClick={[Function]}
-    >
-      <input
-        aria-invalid={false}
-        autoComplete="off"
-        autoFocus={false}
-        className="MuiInputBase-input MuiOutlinedInput-input"
-        disabled={false}
-        id="input"
-        maxLength={100}
-        onAnimationStart={[Function]}
-        onBlur={[Function]}
-        onChange={[Function]}
-        onFocus={[Function]}
-        required={false}
-        type="text"
-      />
-      <fieldset
-        aria-hidden={true}
-        className="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
-      >
-        <legend
-          className="PrivateNotchedOutline-legendLabelled"
-        >
-          <span>
-            Label name
-          </span>
-        </legend>
-      </fieldset>
-    </div>
-  </div>,
+    Label name
+  </label>
   <div
-    className="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root WithStyles(ForwardRef(TextField))-root"
+    className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
+    onClick={[Function]}
   >
-    <label
-      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-filled"
-      data-shrink={true}
-      htmlFor="select-input"
-      id="select-input-label"
+    <input
+      aria-invalid={false}
+      autoComplete="off"
+      autoFocus={false}
+      className="MuiInputBase-input MuiOutlinedInput-input"
+      disabled={false}
+      id="input"
+      maxLength={100}
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      required={false}
+      type="text"
+    />
+    <fieldset
+      aria-hidden={true}
+      className="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
     >
-      Label name
-    </label>
-    <div
-      className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl"
-      onClick={[Function]}
-    >
-      <div
-        aria-haspopup="listbox"
-        aria-labelledby="select-input-label select-input"
-        className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input"
-        id="select-input"
-        onBlur={[Function]}
-        onFocus={[Function]}
-        onKeyDown={[Function]}
-        onMouseDown={[Function]}
-        role="button"
-        tabIndex={0}
+      <legend
+        className="PrivateNotchedOutline-legendLabelled"
       >
-        Option 1
-      </div>
-      <input
-        aria-hidden={true}
-        autoComplete="off"
-        autoFocus={false}
-        className="MuiSelect-nativeInput"
-        maxLength={100}
-        onAnimationStart={[Function]}
-        onChange={[Function]}
-        required={false}
-        tabIndex={-1}
-        value={1}
-      />
-      <svg
-        aria-hidden={true}
-        className="MuiSvgIcon-root MuiSelect-icon MuiSelect-iconOutlined"
-        focusable="false"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M7 10l5 5 5-5z"
-        />
-      </svg>
-      <fieldset
-        aria-hidden={true}
-        className="PrivateNotchedOutline-root MuiOutlinedInput-notchedOutline"
-      >
-        <legend
-          className="PrivateNotchedOutline-legendLabelled PrivateNotchedOutline-legendNotched"
-        >
-          <span>
-            Label name
-          </span>
-        </legend>
-      </fieldset>
-    </div>
-  </div>,
-]
+        <span>
+          Label name
+        </span>
+      </legend>
+    </fieldset>
+  </div>
+</div>
 `;
 
 exports[`Storyshots Components/atoms/Tooltip paper 1`] = `
