@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction, useState } from 'react'
+import React, { Dispatch, SetStateAction, useState, useEffect } from 'react'
 import {
   Box,
   Typography,
@@ -41,6 +41,17 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
     city: '',
     color: colors[0]
   })
+
+  useEffect(() => {
+    if (!open) {
+      setForm({
+        text: '',
+        date: new Date(),
+        city: '',
+        color: colors[0]
+      })
+    }
+  }, [open])
 
   const handleChange = (name: string) => (
     event: React.ChangeEvent<HTMLInputElement>
@@ -85,9 +96,10 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
         </Typography>
         <Typography mb={1}>Choose a color</Typography>
         <Box display="flex" alignItems="center" mb={3}>
-          {colors.map((each) => {
+          {colors.map((each, index) => {
             return (
               <Box
+                data-testid={`create-reminder-box-pick-color-${index}`}
                 key={each}
                 style={{ cursor: 'pointer' }}
                 borderRadius={4}
@@ -102,6 +114,7 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
           })}
         </Box>
         <TextField
+          data-testid="create-reminder-textfield-text"
           label="Text"
           inputProps={{
             maxLength: 30
@@ -112,6 +125,7 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
           required
         />
         <DateTimePicker
+          data-testid="create-reminder-textfield-date"
           label="Date"
           inputVariant="outlined"
           value={form.date}
@@ -120,6 +134,7 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
           fullWidth
         />
         <TextField
+          data-testid="create-reminder-textfield-city"
           label="City"
           width={1}
           mb={3}
@@ -127,7 +142,12 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
           required
         />
         <Box position="relative" mb={3}>
-          <Button width={1} type="submit" disabled={loading}>
+          <Button
+            width={1}
+            type="submit"
+            disabled={loading}
+            data-testid="create-reminder-button-submit"
+          >
             Create
           </Button>
           {loading && (
@@ -140,7 +160,12 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
             />
           )}
         </Box>
-        <Button width={1} variant="outlined" onClick={() => setOpen(false)}>
+        <Button
+          width={1}
+          variant="outlined"
+          onClick={() => setOpen(false)}
+          data-testid="create-reminder-button-close"
+        >
           Close
         </Button>
       </Box>

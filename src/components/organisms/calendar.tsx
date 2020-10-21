@@ -28,7 +28,10 @@ const Calendar: React.FC = () => {
   >(false)
   const theme = useTheme()
   const xsAndDown = useMediaQuery(theme.breakpoints.down('xs'))
-  const today = new Date()
+  const today =
+    process.env.NODE_ENV === 'test' || window.Cypress
+      ? new Date('2020/10/20')
+      : new Date()
   const [year, setYear] = useState(today.getFullYear())
   const [month, setMonth] = useState(today.getMonth())
   const monthNames = [
@@ -95,11 +98,15 @@ const Calendar: React.FC = () => {
           <TableCell
             key={count}
             onClick={() => setOpenListRemindersModal(newDate)}
+            data-testid={`calendar-past-${newDay}`}
           >
             <Typography fontWeight="500" color={theme.palette.grey[500]} mb={1}>
               {newDay}
             </Typography>
-            <ReminderCard date={newDate} />
+            <ReminderCard
+              date={newDate}
+              testId={`reminder-card-current-${newDay}`}
+            />
           </TableCell>
         )
       } else if (count - firstDay + 1 > daysInMonth) {
@@ -112,11 +119,15 @@ const Calendar: React.FC = () => {
           <TableCell
             key={count}
             onClick={() => setOpenListRemindersModal(newDate)}
+            data-testid={`calendar-future-${newDay}`}
           >
             <Typography fontWeight="500" color={theme.palette.grey[500]} mb={1}>
               {newDay}
             </Typography>
-            <ReminderCard date={newDate} />
+            <ReminderCard
+              date={newDate}
+              testId={`reminder-card-current-${newDay}`}
+            />
           </TableCell>
         )
       } else {
@@ -139,11 +150,15 @@ const Calendar: React.FC = () => {
           <TableCell
             key={count}
             onClick={() => setOpenListRemindersModal(newDate)}
+            data-testid={`calendar-current-${newDay}`}
           >
             <Typography fontWeight="500" color={dayColor} mb={1}>
               {newDay}
             </Typography>
-            <ReminderCard date={newDate} />
+            <ReminderCard
+              date={newDate}
+              testId={`reminder-card-current-${newDay}`}
+            />
           </TableCell>
         )
       }
@@ -187,6 +202,7 @@ const Calendar: React.FC = () => {
                   aria-label="Back"
                   onClick={setPreviousMonth}
                   disabled={month === 0 && year === 1970}
+                  data-testid="calendar-button-back"
                 >
                   <ArrowForwardIos style={{ transform: 'rotate(180deg)' }} />
                 </IconButton>
@@ -197,17 +213,33 @@ const Calendar: React.FC = () => {
                   onClick={setNextMonth}
                   mr={1}
                   disabled={month === 11 && year === 9999}
+                  data-testid="calendar-button-forward"
                 >
                   <ArrowForwardIos />
                 </IconButton>
               </Tooltip>
-              <Button onClick={setToday}>Today</Button>
+              <Button
+                onClick={setToday}
+                data-testid="calendar-button-set-today"
+              >
+                Today
+              </Button>
             </Box>
-            <Button ml={1} onClick={() => setOpenCreateReminderModal(true)}>
+            <Button
+              ml={1}
+              onClick={() => setOpenCreateReminderModal(true)}
+              data-testid="calendar-button-create-reminder"
+            >
               Create reminder
             </Button>
           </Box>
-          <Typography variant="h6" textAlign="center" width={1} ml={1}>
+          <Typography
+            variant="h6"
+            textAlign="center"
+            width={1}
+            ml={1}
+            data-testid="calendar-typography-date"
+          >
             {monthNames[month]} {year}
           </Typography>
         </Box>

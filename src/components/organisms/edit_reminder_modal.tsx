@@ -108,7 +108,7 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
           <>
             <Typography mb={1}>Choose a color</Typography>
             <Box display="flex" alignItems="center" mb={3}>
-              {colors.map((each) => {
+              {colors.map((each, index) => {
                 return (
                   <Box
                     key={each}
@@ -120,11 +120,13 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
                     border={form.color === each && '3px solid black'}
                     onClick={() => setForm({ ...form, color: each })}
                     mr={1}
+                    data-testid={`edit-reminder-box-pick-color-${index}`}
                   />
                 )
               })}
             </Box>
             <TextField
+              data-testid="edit-reminder-textfield-text"
               label="Text"
               inputProps={{
                 maxLength: 30
@@ -136,6 +138,7 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
               required
             />
             <DateTimePicker
+              data-testid="edit-reminder-textfield-date"
               label="Date"
               inputVariant="outlined"
               value={form.date}
@@ -144,6 +147,7 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
               fullWidth
             />
             <TextField
+              data-testid="edit-reminder-textfield-city"
               label="City"
               width={1}
               mb={3}
@@ -152,7 +156,12 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
               required
             />
             <Box position="relative" mb={3}>
-              <Button width={1} type="submit" disabled={loading}>
+              <Button
+                width={1}
+                type="submit"
+                disabled={loading}
+                data-testid="edit-reminder-button-submit"
+              >
                 Edit
               </Button>
               {loading && (
@@ -165,7 +174,12 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
                 />
               )}
             </Box>
-            <Button width={1} variant="outlined" onClick={() => setOpen(false)}>
+            <Button
+              width={1}
+              variant="outlined"
+              onClick={() => setOpen(false)}
+              data-testid="edit-reminder-button-close"
+            >
               Close
             </Button>
           </>

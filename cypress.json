@@ -8,7 +8,7 @@
   "videosFolder": "spec/cypress/videos",
   "viewportHeight": 768,
   "viewportWidth": 1366,
-  "defaultCommandTimeout": 20000,
+  "defaultCommandTimeout": 10000,
   "videoCompression": false,
   "retries": {
     "runMode": 2,

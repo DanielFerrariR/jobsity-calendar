@@ -52,7 +52,6 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
 
   const deleteAllReminders = () => {
     dispatch(deleteReminders(reminders || [], sortedReminders || []))
-    setOpen(false)
   }
 
   return (
@@ -64,7 +63,7 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
             <IconButton
               aria-label="Trash"
               onClick={deleteAllReminders}
-              data-testid="iconbutton-reminders-list-trash"
+              data-testid="list-reminders-icon-button-delete-all"
             >
               <Delete />
             </IconButton>
@@ -80,56 +79,79 @@ const ListRemindersModal: React.FC<Props> = ({ open, setOpen }) => {
           css={{ overflow: 'auto' }}
         >
           {sortedReminders &&
-            sortedReminders.map((each, count) => (
-              <ListItem button key={each.id}>
-                <ListItemText
-                  data-testid={`listitemtext-user-list-${count}`}
-                  color="text.primary"
-                >
-                  <Box
-                    xs={{
-                      width: 140,
-                      textOverflow: 'ellipsis',
-                      overflow: 'hidden'
-                    }}
-                    sm={{
-                      width: 200,
-                      textOverflow: 'ellipsis',
-                      overflow: 'hidden'
-                    }}
+            sortedReminders.map((each, count) => {
+              let hours: string | number = each.date.getHours()
+
+              if (hours < 10) {
+                hours = `0${hours}`
+              }
+
+              return (
+                <ListItem button key={each.id}>
+                  <ListItemText
+                    data-testid={`list-reminders-list-item-text-${count}`}
+                    color="text.primary"
                   >
-                    {each.date.getHours()}:{each.date.getMinutes()}&nbsp;&nbsp;
-                    {each.text}
-                  </Box>
-                </ListItemText>
-                <ListItemSecondaryAction>
-                  <Box display="flex" alignItems="center">
-                    <Tooltip title="Edit">
-                      <IconButton
-                        aria-label="Edit"
-                        onClick={() => editReminder(each.id)}
-                        data-testid={`iconbutton-reminders-list-edit-${count}`}
+                    <Box
+                      display="flex"
+                      alignItems="center"
+                      xs={{
+                        width: 140,
+                        textOverflow: 'ellipsis',
+                        overflow: 'hidden'
+                      }}
+                      sm={{
+                        width: 200,
+                        textOverflow: 'ellipsis',
+                        overflow: 'hidden'
+                      }}
+                    >
+                      <Typography
+                        mr={1}
+                        data-testid={`list-reminders-typography-list-item-hour-${count}`}
                       >
-                        <Edit />
-                      </IconButton>
-                    </Tooltip>
-                    <Tooltip title="Delete">
-                      <IconButton
-                        aria-label="Delete"
-                        onClick={() =>
-                          dispatch(deleteReminder(reminders || [], each.id))
-                        }
-                        data-testid={`iconbutton-reminders-list-delete-${count}`}
+                        {hours}:{each.date.getMinutes()}
+                      </Typography>
+                      <Typography
+                        data-testid={`list-reminders-typography-list-item-text-${count}`}
                       >
-                        <Delete />
-                      </IconButton>
-                    </Tooltip>
-                  </Box>
-                </ListItemSecondaryAction>
-              </ListItem>
-            ))}
+                        {each.text}
+                      </Typography>
+                    </Box>
+                  </ListItemText>
+                  <ListItemSecondaryAction>
+                    <Box display="flex" alignItems="center">
+                      <Tooltip title="Edit">
+                        <IconButton
+                          aria-label="Edit"
+                          onClick={() => editReminder(each.id)}
+                          data-testid={`list-reminders-icon-button-edit-${count}`}
+                        >
+                          <Edit />
+                        </IconButton>
+                      </Tooltip>
+                      <Tooltip title="Delete">
+                        <IconButton
+                          aria-label="Delete"
+                          onClick={() =>
+                            dispatch(deleteReminder(reminders || [], each.id))
+                          }
+                          data-testid={`list-reminders-icon-button-delete-${count}`}
+                        >
+                          <Delete />
+                        </IconButton>
+                      </Tooltip>
+                    </Box>
+                  </ListItemSecondaryAction>
+                </ListItem>
+              )
+            })}
         </List>
-        <Button width={1} onClick={() => setOpen(false)}>
+        <Button
+          width={1}
+          onClick={() => setOpen(false)}
+          data-testid="list-reminders-icon-button-close"
+        >
           Close
         </Button>
       </Modal>

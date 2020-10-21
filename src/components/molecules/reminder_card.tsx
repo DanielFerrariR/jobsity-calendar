@@ -6,9 +6,10 @@ import { getContrastRatio } from '@material-ui/core'
 
 interface Props {
   date: Date
+  testId: string
 }
 
-const ReminderCard: React.FC<Props> = ({ date }) => {
+const ReminderCard: React.FC<Props> = ({ date, testId }) => {
   const reminders = useSelector((state) => state.reminders)
   const filteredReminders = reminders?.filter((element) =>
     isSameDay(element.date, date)
@@ -29,7 +30,7 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
     <>
       {sortedReminders &&
         (sortedReminders.length < 3 ? (
-          sortedReminders.map((each) => (
+          sortedReminders.map((each, index) => (
             <Box
               key={each.id}
               bgcolor={each.color}
@@ -39,6 +40,7 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
               display="flex"
               alignItems="center"
               height={32}
+              data-testid={`${testId}-${index}`}
             >
               <Typography
                 variant="caption"
@@ -68,6 +70,7 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
               display="flex"
               alignItems="center"
               height={32}
+              data-testid={`${testId}-0`}
             >
               <Typography
                 variant="caption"
@@ -92,7 +95,7 @@ const ReminderCard: React.FC<Props> = ({ date }) => {
                 />
               )}
             </Box>
-            <Typography variant="caption">
+            <Typography variant="caption" data-testid={`${testId}-extra`}>
               + {sortedReminders?.length - 1} more
             </Typography>
           </>
