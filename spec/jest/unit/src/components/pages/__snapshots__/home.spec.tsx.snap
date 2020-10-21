@@ -20,6 +20,7 @@ exports[`testing Home component should snapshot works 1`] = `
             <button
               aria-label="Back"
               class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="calendar-button-back"
               tabindex="0"
               title="Back"
               type="button"
@@ -46,6 +47,7 @@ exports[`testing Home component should snapshot works 1`] = `
             <button
               aria-label="Forward"
               class="MuiButtonBase-root MuiIconButton-root Component-root Component-root Styled(Component)-root Styled(Component)-root WithStyles(ForwardRef(Tooltip))-root WithStyles(ForwardRef(Tooltip))-root"
+              data-testid="calendar-button-forward"
               tabindex="0"
               title="Forward"
               type="button"
@@ -70,6 +72,7 @@ exports[`testing Home component should snapshot works 1`] = `
             </button>
             <button
               class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+              data-testid="calendar-button-set-today"
               tabindex="0"
               type="button"
             >
@@ -85,6 +88,7 @@ exports[`testing Home component should snapshot works 1`] = `
           </div>
           <button
             class="MuiButtonBase-root MuiButton-root MuiButton-contained Component-root Component-root MuiButton-containedPrimary"
+            data-testid="calendar-button-create-reminder"
             tabindex="0"
             type="button"
           >
@@ -100,6 +104,7 @@ exports[`testing Home component should snapshot works 1`] = `
         </div>
         <h6
           class="MuiTypography-root Component-root Component-root MuiTypography-h6"
+          data-testid="calendar-typography-date"
         >
           October
            
@@ -199,6 +204,7 @@ exports[`testing Home component should snapshot works 1`] = `
             >
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-past-27"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -208,6 +214,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-past-28"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -217,6 +224,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-past-29"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -226,6 +234,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-past-30"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -235,6 +244,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-1"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -244,6 +254,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-2"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -253,6 +264,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-3"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -266,6 +278,7 @@ exports[`testing Home component should snapshot works 1`] = `
             >
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-4"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -275,6 +288,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-5"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -284,6 +298,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-6"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -293,6 +308,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-7"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -302,6 +318,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-8"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -311,6 +328,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-9"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -320,6 +338,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-10"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -333,6 +352,7 @@ exports[`testing Home component should snapshot works 1`] = `
             >
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-11"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -342,6 +362,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-12"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -351,6 +372,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-13"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -360,6 +382,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-14"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -369,6 +392,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-15"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -378,6 +402,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-16"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -387,6 +412,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-17"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -400,6 +426,7 @@ exports[`testing Home component should snapshot works 1`] = `
             >
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-18"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -409,6 +436,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-19"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -418,6 +446,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-20"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -427,6 +456,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-21"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -436,6 +466,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-22"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -445,6 +476,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-23"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -454,6 +486,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-24"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -467,6 +500,7 @@ exports[`testing Home component should snapshot works 1`] = `
             >
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-25"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -476,6 +510,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-26"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -485,6 +520,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-27"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -494,6 +530,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-28"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -503,6 +540,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-29"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -512,6 +550,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-30"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -521,6 +560,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-current-31"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -534,6 +574,7 @@ exports[`testing Home component should snapshot works 1`] = `
             >
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-1"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -543,6 +584,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-2"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -552,6 +594,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-3"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -561,6 +604,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-4"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -570,6 +614,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-5"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -579,6 +624,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-6"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
@@ -588,6 +634,7 @@ exports[`testing Home component should snapshot works 1`] = `
               </td>
               <td
                 class="MuiTableCell-root MuiTableCell-body"
+                data-testid="calendar-future-7"
               >
                 <p
                   class="MuiTypography-root Component-root Component-root MuiTypography-body1"
