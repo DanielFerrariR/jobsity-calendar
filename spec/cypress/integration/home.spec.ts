@@ -259,10 +259,10 @@ describe('testing home page', () => {
       cy.findByTestId('list-reminders-typography-list-item-text-1').contains(
         /test1/
       )
-      cy.findByTestId('list-reminders-typography-list-item-hour-3').contains(
+      cy.findByTestId('list-reminders-typography-list-item-hour-2').contains(
         /12:40/
       )
-      cy.findByTestId('list-reminders-typography-list-item-text-3').contains(
+      cy.findByTestId('list-reminders-typography-list-item-text-2').contains(
         /test2/
       )
     })
