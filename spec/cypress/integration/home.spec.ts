@@ -217,7 +217,7 @@ describe('testing home page', () => {
       })
     })
 
-    it.only('should display the reminders in the correct order', () => {
+    it('should display the reminders in the correct order', () => {
       cy.findByTestId('calendar-button-create-reminder').click()
 
       cy.findByTestId('create-reminder-textfield-text').fill('test1')
