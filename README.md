@@ -93,7 +93,7 @@ $ yarn start
 # Runs for web development
 $ yarn dev
 
-# Builds for web (compiled to dist/web)
+# Builds for web (compiled to dist)
 $ yarn build
 
 # Runs unit tests with Jest
