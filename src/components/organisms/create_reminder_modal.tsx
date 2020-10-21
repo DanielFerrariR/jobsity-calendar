@@ -7,7 +7,7 @@ import {
   DateTimePicker,
   CircularProgress
 } from 'src/components/atoms'
-import { Modal } from 'src/components/molecules'
+import { Modal, ColoredButton } from 'src/components/molecules'
 import { useDispatch, useSelector } from 'src/store'
 import { createReminder } from 'src/store/reminders'
 
@@ -98,13 +98,9 @@ const CreateReminderModal: React.FC<Props> = ({ open, setOpen }) => {
         <Box display="flex" alignItems="center" mb={3}>
           {colors.map((each, index) => {
             return (
-              <Box
+              <ColoredButton
                 data-testid={`create-reminder-box-pick-color-${index}`}
                 key={each}
-                style={{ cursor: 'pointer' }}
-                borderRadius={4}
-                width={24}
-                height={24}
                 bgcolor={each}
                 border={form.color === each && '3px solid black'}
                 onClick={() => setForm({ ...form, color: each })}

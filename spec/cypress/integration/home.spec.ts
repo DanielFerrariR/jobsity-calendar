@@ -117,11 +117,18 @@ describe('testing home page', () => {
           'border',
           '3px solid rgb(0, 0, 0)'
         )
-        // cy.findByTestId('edit-reminder-textfield-text').contains(/Remember this/)
-        // cy.findByTestId('edit-reminder-textfield-date').contains(
-        //   /2020\/10\/20 08:40/
-        // )
-        // cy.findByTestId('edit-reminder-textfield-city').contains(/Sao Paulo/)
+        cy.findByTestId('edit-reminder-textfield-text').should(
+          'have.value',
+          'Remember this'
+        )
+        cy.findByTestId('edit-reminder-textfield-date').should(
+          'have.value',
+          '2020/10/20 08:40'
+        )
+        cy.findByTestId('edit-reminder-textfield-city').should(
+          'have.value',
+          'Sao Paulo'
+        )
       })
     })
 
@@ -149,11 +156,18 @@ describe('testing home page', () => {
           'border',
           '3px solid rgb(0, 0, 0)'
         )
-        // cy.findByTestId('edit-reminder-textfield-text').contains(/Remember this2/)
-        // cy.findByTestId('edit-reminder-textfield-date').contains(
-        //   /2020\/10\/21 08:40/
-        // )
-        // cy.findByTestId('edit-reminder-textfield-city').contains(/Rio de Janeiro/)
+        cy.findByTestId('edit-reminder-textfield-text').should(
+          'have.value',
+          'Remember this2'
+        )
+        cy.findByTestId('edit-reminder-textfield-date').should(
+          'have.value',
+          '2020/10/21 08:40'
+        )
+        cy.findByTestId('edit-reminder-textfield-city').should(
+          'have.value',
+          'Rio de Janeiro'
+        )
       })
     })
 

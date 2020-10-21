@@ -7,7 +7,7 @@ import {
   DateTimePicker,
   CircularProgress
 } from 'src/components/atoms'
-import { Modal } from 'src/components/molecules'
+import { Modal, ColoredButton } from 'src/components/molecules'
 import { useDispatch, useSelector } from 'src/store'
 import { editReminder } from 'src/store/reminders'
 
@@ -37,7 +37,7 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
     '#795548'
   ]
   const [form, setForm] = useState<Form>({
-    text: reminder?.text || '',
+    text: 'Remember this',
     date: reminder?.date || new Date(),
     city: reminder?.city || '',
     color: reminder?.color || colors[0]
@@ -110,12 +110,8 @@ const EditReminderModal: React.FC<Props> = ({ open, setOpen }) => {
             <Box display="flex" alignItems="center" mb={3}>
               {colors.map((each, index) => {
                 return (
-                  <Box
+                  <ColoredButton
                     key={each}
-                    style={{ cursor: 'pointer' }}
-                    borderRadius={4}
-                    width={24}
-                    height={24}
                     bgcolor={each}
                     border={form.color === each && '3px solid black'}
                     onClick={() => setForm({ ...form, color: each })}
