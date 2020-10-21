@@ -12,7 +12,7 @@ describe('testing home page', () => {
     })
   })
 
-  describe('testing the calendar', () => {
+  describe('testing calendar', () => {
     it('should go to the previous year', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
