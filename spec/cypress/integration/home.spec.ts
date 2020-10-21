@@ -13,30 +13,32 @@ describe('testing home page', () => {
   })
 
   describe('testing the calendar', () => {
-    it('go to the previous month', () => {
+    it('go to the previous year', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
-      cy.findByTestId('calendar-button-back').click()
+      for (let count = 0; count < 10; count += 1) {
+        cy.findByTestId('calendar-button-back').click()
+      }
 
-      cy.findByTestId('calendar-typography-date').contains(/September 2020/)
+      cy.findByTestId('calendar-typography-date').contains(/December 2019/)
     })
 
-    it('go to the next month', () => {
+    it('go to the next year', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
-      cy.findByTestId('calendar-button-forward').click()
+      for (let count = 0; count < 3; count += 1) {
+        cy.findByTestId('calendar-button-forward').click()
+      }
 
-      cy.findByTestId('calendar-typography-date').contains(/November 2020/)
+      cy.findByTestId('calendar-typography-date').contains(/January 2021/)
     })
 
     it('go to the current month', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
-      cy.findByTestId('calendar-button-back').click()
-
-      cy.findByTestId('calendar-button-back').click()
-
-      cy.findByTestId('calendar-button-back').click()
+      for (let count = 0; count < 10; count += 1) {
+        cy.findByTestId('calendar-button-back').click()
+      }
 
       cy.findByTestId('calendar-button-set-today').click()
 
