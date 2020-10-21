@@ -98,14 +98,14 @@ const Calendar: React.FC = () => {
           <TableCell
             key={count}
             onClick={() => setOpenListRemindersModal(newDate)}
-            data-testid={`calendar-past-${newDay}`}
+            data-testid={`calendar-table-cell-past-${newDay}`}
           >
             <Typography fontWeight="500" color={theme.palette.grey[500]} mb={1}>
               {newDay}
             </Typography>
             <ReminderCard
               date={newDate}
-              testId={`reminder-card-current-${newDay}`}
+              testId={`reminder-card-past-${newDay}`}
             />
           </TableCell>
         )
@@ -119,14 +119,14 @@ const Calendar: React.FC = () => {
           <TableCell
             key={count}
             onClick={() => setOpenListRemindersModal(newDate)}
-            data-testid={`calendar-future-${newDay}`}
+            data-testid={`calendar-table-cell-future-${newDay}`}
           >
             <Typography fontWeight="500" color={theme.palette.grey[500]} mb={1}>
               {newDay}
             </Typography>
             <ReminderCard
               date={newDate}
-              testId={`reminder-card-current-${newDay}`}
+              testId={`reminder-card-future-${newDay}`}
             />
           </TableCell>
         )
@@ -150,7 +150,7 @@ const Calendar: React.FC = () => {
           <TableCell
             key={count}
             onClick={() => setOpenListRemindersModal(newDate)}
-            data-testid={`calendar-current-${newDay}`}
+            data-testid={`calendar-table-cell-current-${newDay}`}
           >
             <Typography fontWeight="500" color={dayColor} mb={1}>
               {newDay}
