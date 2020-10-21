@@ -13,7 +13,7 @@ describe('testing home page', () => {
   })
 
   describe('testing the calendar', () => {
-    it('go to the previous year', () => {
+    it('should go to the previous year', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
       for (let count = 0; count < 10; count += 1) {
@@ -23,7 +23,7 @@ describe('testing home page', () => {
       cy.findByTestId('calendar-typography-date').contains(/December 2019/)
     })
 
-    it('go to the next year', () => {
+    it('should go to the next year', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
       for (let count = 0; count < 3; count += 1) {
@@ -33,7 +33,7 @@ describe('testing home page', () => {
       cy.findByTestId('calendar-typography-date').contains(/January 2021/)
     })
 
-    it('go to the current month', () => {
+    it('should go to the current month', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
 
       for (let count = 0; count < 10; count += 1) {
@@ -45,7 +45,7 @@ describe('testing home page', () => {
       cy.findByTestId('calendar-typography-date').contains(/October 2020/)
     })
 
-    it('open reminder list modal on past, current and future days', () => {
+    it('should open the reminder list modal on past, current and future days', () => {
       cy.findByTestId('calendar-table-cell-past-30').click()
 
       cy.findByTestId('modal').should('exist')
@@ -248,6 +248,16 @@ describe('testing home page', () => {
       cy.findByTestId('list-reminders-typography-list-item-text-1').contains(
         /test1/
       )
+    })
+
+    it('should keep the reminder on reload', () => {
+      cy.createReminder().then(() => {
+        cy.findByTestId('reminder-card-current-20-0').contains(/Remember this/)
+
+        cy.visit('/')
+
+        cy.findByTestId('reminder-card-current-20-0').contains(/Remember this/)
+      })
     })
   })
 })

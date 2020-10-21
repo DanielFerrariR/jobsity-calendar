@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://localhost:3000/front",
+  "baseUrl": "http://localhost:3000",
   "integrationFolder": "spec/cypress/integration",
   "fixturesFolder": "spec/cypress/fixtures",
   "pluginsFile": "spec/cypress/plugins",
