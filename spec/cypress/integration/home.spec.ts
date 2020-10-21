@@ -217,7 +217,7 @@ describe('testing home page', () => {
       })
     })
 
-    it('should display the reminders in the correct order', () => {
+    it.only('should display the reminders in the correct order', () => {
       cy.findByTestId('calendar-button-create-reminder').click()
 
       cy.findByTestId('create-reminder-textfield-text').fill('test1')
@@ -234,8 +234,27 @@ describe('testing home page', () => {
 
       cy.findByTestId('create-reminder-button-submit').click()
 
-      cy.findByTestId('reminder-card-current-20-0').contains(/test2/)
-      cy.findByTestId('reminder-card-current-20-1').contains(/test1/)
+      cy.findByTestId('reminder-card-current-20-0').contains(/test1/)
+      cy.findByTestId('reminder-card-current-20-1').contains(/test2/)
+
+      cy.findByTestId('calendar-button-create-reminder').click()
+
+      cy.findByTestId('create-reminder-textfield-text').fill('test1')
+      cy.findByTestId('create-reminder-textfield-date').fill('2020/10/21 12:40')
+      cy.findByTestId('create-reminder-textfield-city').fill('Sao Paulo')
+
+      cy.findByTestId('create-reminder-button-submit').click()
+
+      cy.findByTestId('calendar-button-create-reminder').click()
+
+      cy.findByTestId('create-reminder-textfield-text').fill('test2')
+      cy.findByTestId('create-reminder-textfield-date').fill('2020/10/21 11:40')
+      cy.findByTestId('create-reminder-textfield-city').fill('Sao Paulo')
+
+      cy.findByTestId('create-reminder-button-submit').click()
+
+      cy.findByTestId('reminder-card-current-21-0').contains(/test2/)
+      cy.findByTestId('reminder-card-current-21-1').contains(/test1/)
 
       cy.findByTestId('calendar-button-create-reminder').click()
 
